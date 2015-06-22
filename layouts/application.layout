@@ -80,6 +80,143 @@
     sessionStorage.setItem('secondary_locale', 'fr-CA');
 </script>
 </head>
+<style>
+    /*custom styles*/
+    
+    /*hyperlinks*/
+    a{
+        color:#999999;
+        text-decoration:inherit;
+    }
+    
+    /*hyperlink hover color*/
+    a:hover{
+        color:#999999 !important;
+    }
+    
+    body{
+        background:white;
+    }
+    
+    header{
+        
+    }
+    
+     p input[type='image']{
+       width:100% !important;
+   }
+   
+    .main_window{
+        border:40px solid #bfbfbf;
+    }
+    .btn-primary{
+        background: black !important;
+        border-color:#303030 !important;
+        text-align:center;
+        color:white !important;
+    }
+    
+    .btn-primary:hover{
+        background: black !important;
+        border-color:#303030 !important;
+        text-align:center;
+    }
+    
+    /*menu colors*/
+    .navbar .nav li a{
+        color:white;
+    }
+    
+    .view_button {
+        background:black !important;
+    }
+    
+    .navbar .nav li a:hover,.navbar .nav li a:active{
+        color:#c8c8c8 !important;
+    }
+    
+    .site_welcome_msg{
+        font-size:22px !important;
+        margin-top:0 !important;
+        line-height:20px !important;
+    }
+    .site_description{
+        font-size:15px !important;
+        line-height:20px !important;
+        margin-bottom:0 !important;
+    }
+    /*social media box color*/
+    #social_media_wrapper{
+        background:#000;
+    }
+    /*social media icon inner color*/
+    #social_media_wrapper a{
+        color:#000;
+    }
+    #social_media_wrapper a:hover{
+        color:white;
+        background:black;
+    }
+     .map-mouse-over{
+    /*set color of store highlight and hover over for SVG map*/
+    fill: black;
+    }
+    /*inside page banners*/
+    .page_banner{
+        color:black;
+        /* For Safari 5.1 to 6.0 */
+        background: -webkit-linear-gradient(left,#AEACAC,#C8C8C8, #AEACAC);
+        /* For Opera 11.1 to 12.0 */
+        background: -o-linear-gradient(left,#AEACAC,#C8C8C8, #AEACAC);
+        /* For Fx 3.6 to 15 */
+        background: -moz-linear-gradient(left,#AEACAC,#C8C8C8, #AEACAC);
+        /* Standard syntax */
+        background: linear-gradient(to right,#AEACAC,#C8C8C8, #AEACAC); 
+        box-shadow: 0px 0px 30px lightgray inset;
+    }
+    
+    #description_section{
+         /* For Safari 5.1 to 6.0 */
+        background: -webkit-linear-gradient(left,#AEACAC,#C8C8C8, #AEACAC);
+        /* For Opera 11.1 to 12.0 */
+        background: -o-linear-gradient(left,#AEACAC,#C8C8C8, #AEACAC);
+        /* For Fx 3.6 to 15 */
+        background: -moz-linear-gradient(left,#AEACAC,#C8C8C8, #AEACAC);
+        /* Standard syntax */
+        background: linear-gradient(to right,#AEACAC,#C8C8C8, #AEACAC); 
+        box-shadow: 0px 0px 30px lightgray inset;
+    }
+    
+    .section_header{}
+    .promo_header{
+        border-bottom:solid 1px #cccccc;
+        padding-bottom:10px;
+    }
+    
+    .breadcrumb a {
+        color:black !important;
+    }
+    .right_column_header {
+        color: black ;
+    }
+    
+    .navbar .nav li a:hover {
+        color:#c8c8c8 !important;
+    
+    }
+     .site-map-section a:hover {
+         color: #c8c8c8 !important;
+     }
+    @media (max-width: 767px) {
+        .main_window{
+            width:100%;
+            border:15px solid #bfbfbf !important;
+            border-top:none !important;
+        }  
+    }
+
+    
+</style>
 <body>
 <header>
     <a class="accessible" href="#page_content">[Skip to Content]</a>
