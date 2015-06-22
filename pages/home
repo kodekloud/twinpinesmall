@@ -4,9 +4,7 @@
         text-transform:uppercase;
         font-weight:400 !important;
     }
-    .feature_title{
-        text-align:left;
-    }
+    
 </style>
 <section id="slider_wrapper" class="slider_wrapper">
      <div id="main_flexslider" class="flexslider">
