@@ -99,7 +99,7 @@
     }
     
     header{
-        
+        background:white;
     }
     
      p input[type='image']{
