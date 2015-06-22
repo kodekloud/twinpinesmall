@@ -142,6 +142,7 @@
                 nextText: ""
             });
         }
+        
         function renderFeatureItems(feature_template,feature_items,featureList){
             var item_list = [];
             var item_rendered = [];
