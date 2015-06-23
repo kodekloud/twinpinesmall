@@ -227,18 +227,19 @@
                </a><a class="btn btn-navbar btn-default navbar-toggle" onclick="javascript:toggle_menu()"><span class="nb_left pull-left"> <span class="fa fa-reorder"></span></span> <!--  <span class="nb_right pull-right">menu</span> --> </a></div>
                 <div class="mobile_menu" style="display:none">
                     <ul>
-                        <li><a href="/stores">Store Directory</a></li>
-                        <li><a href="/events">Events</a></li>
-                        <li><a href="/promotions">Promotions</a></li>
-                        <li><a onclick="javascript:toggle_submenu('leasing_dd');">Leasing <span class="caret"></span></a>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/stores">Directory</a></li>
+                        
+                        <li><a onclick="javascript:toggle_submenu('leasing_dd');">Promos & Events <span class="caret"></span></a>
                             <div id="leasing_dd" class="submenu" style="display:none">
                                 <ul>
-                                    <li><a href="/leasing">Leasing</a></li>
-                                    <li><a href="/photos">Photos</a></li>
+                                    <li><a href="/promotions">Promotions</a></li>
+                                    <li><a href="/events">Events</a></li>
                                 </ul>    
                             </div>
                         </li>
-                        <li><a onclick="javascript:toggle_submenu('contact_dd');">Contact Us <span class="caret"></span></a>
+                         <li><a href="/jobs">Jobs</a></li>
+                        <li><a onclick="javascript:toggle_submenu('contact_dd');">Information <span class="caret"></span></a>
                             <div id="contact_dd" class="submenu" style="display:none">
                                 <ul>
                                     <li><a href="/contact_us">Contact Us</a></li>
@@ -247,33 +248,33 @@
                                 </ul>    
                             </div>
                         </li>
+                        <li><a href="/jobs">Movies</a></li>
+                        <li><a href="/posts">Blog</a></li>
                     </ul>
                 </div>
 
                 <div class="collapse navbar-collapse">              
                     <ul class="nav pull-right navbar-nav">
+                        <li id="home_link"><a href="/">Home</a></li>
+                        <li id="directory_link"><a href="/stores">Directory</a></li>
+                         <li id="directory_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Promos & Events<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/promotions">Promotions</a></li>
+                                <li><a href="/events">Events</a></li>
+                            </ul> 
+                         </li>
+                         <li id="jobs_link"><a href="/jobs">Jobs</a></li>
+                         
                         
-                         <li id="directory_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Store Directory <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/stores">Store Directory</a></li>
-                                <li><a href="/office_directory">Office Directory</a></li>
-                            </ul> 
-                         </li>
-                         <li id="event_link"><a href="/events">Events</a></li>
-                         <li id="promotion_link"><a href="/promotions">Promotions</a></li>
-                         <li id="leasing_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Leasing <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/leasing">Leasing</a></li>
-                                <li><a href="/photos">Photos</a></li>
-                            </ul> 
-                         </li>
-                         <li id="contact_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">contact us <span class="caret"></span></a>
+                         <li id="contact_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Information <span class="caret"></span></a>
                              <ul class="dropdown-menu">
                                 <li><a href="/contact_us">Contact Us</a></li>
                                 <li><a href="/find_us">Find Us</a></li>
                                 <li><a href="/about_us">About Us</a></li>
                             </ul> 
                          </li>
+                          <li id="jobs_link"><a href="/jobs">Movies</a></li>
+                           <li id="jobs_link"><a href="/posts">Blog</a></li>
                     </ul>
                </div>
           </div>
