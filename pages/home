@@ -24,13 +24,23 @@
           </ul>
      </div>
 </section>
-<section class="call_to_action" id="description_section">
-    <script id="description_template" type="x-tmpl-mustache/text">
-        </br>
-       <h3 class="site_welcome_msg">{{welcome_message}}</h3>
-       <h4 class="site_description">{{description}}</h4>
-    </script>
-</section>
+<h1>Today's Hours </h1>
+                               
+                                <script id="todays_hours_search_template" type="x-tmpl-mustache/text">{% raw %}
+                                    <span style="{{is_open_css}};">
+                                        {{open_time_localized}} - {{close_time_localized}}
+                                    </span>
+                                    <span style="{{is_closed_css}};">
+                                        Closed
+                                    </span> 
+                                </script>
+<!--<section class="call_to_action" id="description_section">-->
+<!--    <script id="description_template" type="x-tmpl-mustache/text">-->
+<!--        </br>-->
+<!--       <h3 class="site_welcome_msg">{{welcome_message}}</h3>-->
+<!--       <h4 class="site_description">{{description}}</h4>-->
+<!--    </script>-->
+<!--</section>-->
 <!--the welcome box colour : #98add0 (outside)   #d2d9e9 (inside)-->
 <div class="main">
      <div class="container">
