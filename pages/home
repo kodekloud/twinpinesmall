@@ -24,6 +24,10 @@
           </ul>
      </div>
 </section>
+ <section class="call_to_action">
+               <h3>focus on what’s important</h3>
+               <h4>and  make the web a little bit  prettier</h4>
+               <a class="btn btn-primary btn-lg" href="#">Buy this theme!</a></section>
 <section class="call_to_action" id="description_section">
     <script id="description_template" type="x-tmpl-mustache/text">
         </br>
