@@ -111,14 +111,14 @@
     }
     .btn-primary{
         background: black !important;
-        border-color:#303030 !important;
+        border-color:#299E48 !important;
         text-align:center;
         color:white !important;
     }
     
     .btn-primary:hover{
         background: black !important;
-        border-color:#303030 !important;
+        border-color:#299E48 !important;
         text-align:center;
     }
     
