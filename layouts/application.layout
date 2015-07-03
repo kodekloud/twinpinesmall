@@ -110,14 +110,14 @@
         border:40px solid #bfbfbf;
     }
     .btn-primary{
-        background: black !important;
+        background: #299E48 !important;
         border-color:#299E48 !important;
         text-align:center;
         color:white !important;
     }
     
     .btn-primary:hover{
-        background: black !important;
+        background: #299E48 !important;
         border-color:#299E48 !important;
         text-align:center;
     }
