@@ -115,7 +115,12 @@
         text-align:center;
         color:white !important;
     }
-    
+    .btn-primary:hover {
+  background: #299E48 !important;
+  border-color: #299E48 !important;
+  text-align: center;
+ color: #ffffff !important;
+}
     .btn-danger {
     color: #FFF;
     background-color: #299E48;
