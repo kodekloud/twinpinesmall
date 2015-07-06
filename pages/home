@@ -151,7 +151,7 @@
             var propertyDetails = getPropertyDetails();
             var banners = getBanners()
             var hours = getTodaysHours()
-            renderLayoutHours('#todays_hours_container', '#todays_hours_template', hours[today]);
+            renderLayoutHours('#todays_hours_container', '#todays_hours_template', hours);
             renderBanner('#banner_template','#home_banner',banners);
             renderFeatureItems('#feature_template', '#feature_items', featureList)
             renderPropertyDescription('#description_template','#description_section', propertyDetails )
