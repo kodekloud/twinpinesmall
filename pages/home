@@ -153,6 +153,7 @@
             var hours = getPropertyHours();
             var date = new Date();
             var today = date.getDay();
+            renderLayoutHours('#todays_hours_container', '#todays_hours_template', hours[today]);
             renderBanner('#banner_template','#home_banner',banners);
             renderFeatureItems('#feature_template', '#feature_items', featureList)
             renderPropertyDescription('#description_template','#description_section', propertyDetails )
