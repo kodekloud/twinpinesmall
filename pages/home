@@ -26,7 +26,7 @@
 </section>
  <section class="call_to_action">
     <div id="todays_hours_container" class="text-right">
-        <script id="saturday_home_template" type="x-tmpl-mustache/text">
+        <script id="todays_hours_template" type="x-tmpl-mustache/text">
             <h3>Today's Hours: {{h}}</h3>
             <h4>Good Friday (Apr): Closed</h4>
             <a class="btn btn-primary btn-lg" href="/hours">More hours</a></section>
