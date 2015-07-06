@@ -128,7 +128,7 @@
     border-color: #299E48;
 }
    .portfolio_item figure {
-  height: 300px;
+  height: 300px !important;
  
 }
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
