@@ -132,34 +132,16 @@
               
              <br>
              <h1><center>Visit Our Great Stores</center></h1>
-             <div style="height: 230px;
-                    width: 1150px;
-                    background-color: #;"><ul class="media-grid " style="margin-left: -10px"><li class="media-list-item grid ">
-<div class="media-image-wrapper clearfix" style="margin: 0 0 10px 10px;">
-<a href="http://snapwidget.com/v/1021867315871911626" target="_blank" style="margin: 0;"> <img class="thumbnail" src="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s320x320/e15/11357556_856311017739403_1785266896_n.jpg" style="height: 210px; width: 210px; opacity: 1;"></a><div class="thumbnail-share">
-<div title="Share on Facebook" onclick="shareFB('http://snapwidget.com/v/1021867315871911626')" class="button facebook"></div>
-<div title="Share on Twitter" onclick="shareTwitter('http://snapwidget.com/v/1021867315871911626', 'We’ve found the perfect statement necklace from @aldo_shoes for our girls night out toni...')" class="button twitter"></div>
-</div></div></li><li class="media-list-item grid ">
-<div class="media-image-wrapper clearfix" style="margin: 0 0 10px 10px;">
-<a href="http://snapwidget.com/v/1021840016439021368" target="_blank" style="margin: 0;"> <img class="thumbnail" src="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s320x320/e15/11377962_866763890084325_1109503769_n.jpg" style="height: 210px; width: 210px; opacity: 1;"></a><div class="thumbnail-share">
-<div title="Share on Facebook" onclick="shareFB('http://snapwidget.com/v/1021840016439021368')" class="button facebook"></div>
-<div title="Share on Twitter" onclick="shareTwitter('http://snapwidget.com/v/1021840016439021368', 'The countdown is on. The Victoria International Buskers Festival will be taking place July...')" class="button twitter"></div>
-</div></div></li><li class="media-list-item grid ">
-<div class="media-image-wrapper clearfix" style="margin: 0 0 10px 10px;">
-<a href="http://snapwidget.com/v/1021812327103631212" target="_blank" style="margin: 0;"> <img class="thumbnail" src="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s320x320/e15/11240677_1183955761620766_1944966394_n.jpg" style="height: 210px; width: 210px; opacity: 1;"></a><div class="thumbnail-share">
-<div title="Share on Facebook" onclick="shareFB('http://snapwidget.com/v/1021812327103631212')" class="button facebook"></div>
-<div title="Share on Twitter" onclick="shareTwitter('http://snapwidget.com/v/1021812327103631212', 'The time has come for champagne, cake, and the traditional flower toss. It’s wedding sea...')" class="button twitter"></div>
-</div></div></li><li class="media-list-item grid ">
-<div class="media-image-wrapper clearfix" style="margin: 0 0 10px 10px;">
-<a href="http://snapwidget.com/v/1021061190289231756" target="_blank" style="margin: 0;"> <img class="thumbnail" src="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s320x320/e15/11380830_1642661465971228_3888205_n.jpg" style="height: 210px; width: 210px; opacity: 1;"></a><div class="thumbnail-share">
-<div title="Share on Facebook" onclick="shareFB('http://snapwidget.com/v/1021061190289231756')" class="button facebook"></div>
-<div title="Share on Twitter" onclick="shareTwitter('http://snapwidget.com/v/1021061190289231756', 'We\'re off to pick up these gorgeous candles from @migrationboutique! They\'re perfect for p...')" class="button twitter"></div>
-</div></div></li><li class="media-list-item grid ">
-<div class="media-image-wrapper clearfix" style="margin: 0 0 10px 10px;">
-<a href="http://snapwidget.com/v/1020414197925711775" target="_blank" style="margin: 0;"> <img class="thumbnail" src="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s320x320/e15/11417226_1680507102168570_1320760094_n.jpg" style="height: 210px; width: 210px"></a><div class="thumbnail-share">
-<div title="Share on Facebook" onclick="shareFB('http://snapwidget.com/v/1020414197925711775')" class="button facebook"></div>
-<div title="Share on Twitter" onclick="shareTwitter('http://snapwidget.com/v/1020414197925711775', 'Today we’re treating ourselves to the Veggie Works @newyorkfries #BayCentreEats')" class="button twitter"></div>
-</div></div></li></ul></div>
+             <div class="socialize_div">
+    <p class="socialize_text">socialize with us</p>
+    <div class="socialize_social_icons">
+                <a href="https://instagram.com/thebaycentre/" target="_blank"><img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_instagram.png" class="social_icon" alt="instagram" id="social_instagram"></a>
+                        <a href="https://www.facebook.com/thebaycentre" target="_blank"><img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_fb.png" class="social_icon" alt="facebook" id="social_facebook"></a>
+                        <a href="https://twitter.com/baycentrevic" target="_blank"><img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_twit.png" class="social_icon" alt="twitter" id="social_twitter"></a>
+                        <a href="https://www.youtube.com/user/thebaycentre" target="_blank"><img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_youtube.png" class="social_icon" alt="youtube" id="social_youtube"></a>
+                        <a href="" target="_blank"><img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_blog.png" class="social_icon" alt="blog" id="social_blog"></a>
+            </div>
+</div>
           </section>
           <!-- <section class="clients_section wow animated fadeInUp">
                <h2 class="section_header elegant centered">Our clients<small>all of them are satisfied</small></h2>
