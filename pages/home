@@ -25,9 +25,13 @@
      </div>
 </section>
  <section class="call_to_action">
-               <h3>Today's Hours: 10:00AM - 9:00PM</h3>
-               <h4>Good Friday (Apr): Closed</h4>
-               <a class="btn btn-primary btn-lg" href="/hours">More hours</a></section>
+    <div id="saturday_home_container" class="text-right">
+        <script id="saturday_home_template" type="x-tmpl-mustache/text">
+            <h3>Today's Hours: {{h}}</h3>
+            <h4>Good Friday (Apr): Closed</h4>
+            <a class="btn btn-primary btn-lg" href="/hours">More hours</a></section>
+        </script>
+    </div>
 <!--<section class="call_to_action" id="description_section">-->
 <!--    <script id="description_template" type="x-tmpl-mustache/text">-->
 <!--        </br>-->
