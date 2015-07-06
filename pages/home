@@ -150,9 +150,7 @@
             var featureList = getFeatureList();
             var propertyDetails = getPropertyDetails();
             var banners = getBanners()
-            var hours = getPropertyHours();
-            var date = new Date();
-            var today = date.getDay();
+            var hours = getTodaysHours()
             renderLayoutHours('#todays_hours_container', '#todays_hours_template', hours[today]);
             renderBanner('#banner_template','#home_banner',banners);
             renderFeatureItems('#feature_template', '#feature_items', featureList)
