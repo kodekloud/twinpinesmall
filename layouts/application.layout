@@ -127,7 +127,10 @@
     background-color: #299E48;
     border-color: #299E48;
 }
-   
+   .portfolio_item figure {
+  height: 300px;
+ 
+}
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
   color: #ffffff !important;
   background-color: #299E48;
