@@ -150,6 +150,7 @@
             var featureList = getFeatureList();
             var propertyDetails = getPropertyDetails();
             var banners = getBanners()
+            var hours = getPropertyHours();
             renderBanner('#banner_template','#home_banner',banners);
             renderFeatureItems('#feature_template', '#feature_items', featureList)
             renderPropertyDescription('#description_template','#description_section', propertyDetails )
