@@ -36,6 +36,7 @@
 <!--MallMaverick v=0.3-->
 <script src="http://mallmaverick.kodekloud.io/mallmaverick.js?v=0.3"></script>
 <script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
+<script src="/application.js"></script>
 <script>
     $(document).ready(function() {
         $.reject({  
