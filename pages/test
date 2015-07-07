@@ -2,14 +2,14 @@
 <script id="store_list_template" type="x-tmpl-mustache/text">
                <div class="row isotope_portfolio_container">
                     <div class="cat_travel col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                         <div class="portfolio_item"> <a href="portfolio_item.html" data-path-hover="M 180,190 0,158 0,0 180,0 z">
-                              <figure style="background-image:url(images/portfolio/t5.jpg)">
+                         <div class="portfolio_item"> <a href="../stores/{{slug}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                              <figure style="background-image:url({{alt_store_front_url}})">
                                    <svg viewBox="0 0 180 320" preserveAspectRatio="none">
                                         <path d="M 180,0 0,0 0,0 180,0 z"/>
                                    </svg>
                                    <figcaption>
-                                        <p>Description of the project dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum....</p>
-                                        <div class="view_button">View</div>
+                                        <p>{{description}}</p>
+                                        <div class="view_button">{{name}}</div>
                                    </figcaption>
                               </figure>
                               </a>
