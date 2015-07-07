@@ -54,7 +54,7 @@
                               </a>
                               <div class="portfolio_description">
                                    <h3><a href="portfolio_item.html">{{name}}</a></h3>
-                                   <p>{{category}}</p>
+                                   <span><p class="pull-left"><i class="fa fa-phone"></i><a href="tel:{{phone}}">  {{phone}}</a></p><a href="../stores/{{slug}}" class="btn btn-primary pull-right">view detail</a></span>
                               </div>
                          </div>
                     </div>
