@@ -53,7 +53,7 @@
                               </figure>
                               </a>
                               <div class="portfolio_description">
-                                   <h3><a href="portfolio_item.html">Lorem Ipsum</a></h3>
+                                   <h3><a href="portfolio_item.html">{{name}}</a></h3>
                                    <p>people</p>
                               </div>
                          </div>
