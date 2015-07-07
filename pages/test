@@ -1,4 +1,5 @@
-<section class="portfolio_strict">
+<section class="service_teasers" id="store_list_container">
+<script id="store_list_template" type="x-tmpl-mustache/text">
                <div class="row isotope_portfolio_container">
                     <div class="cat_travel col-xs-12 col-sm-6 col-md-4 col-lg-4">
                          <div class="portfolio_item"> <a href="portfolio_item.html" data-path-hover="M 180,190 0,158 0,0 180,0 z">
@@ -20,6 +21,7 @@
                     </div>
                     </div>
                     </section>
+                    </script>
                      function goToStore(store_details){
         if(typeof(store_details) != 'undefined' && store_details != null){
             window.location.href = "/stores/"+store_details.slug;
