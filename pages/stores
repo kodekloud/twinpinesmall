@@ -44,7 +44,7 @@
                                         <path d="M 180,0 0,0 0,0 180,0 z"/>
                                    </svg>
                                    <figcaption>
-                                        <p>Description of the project dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum....</p>
+                                        <p>{{description}}</p>
                                         <div class="view_button">View</div>
                                    </figcaption>
                               </figure>
