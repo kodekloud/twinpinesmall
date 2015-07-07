@@ -58,16 +58,7 @@
                               </div>
                          </div>
                     </div>
-                         <div class="service_photo col-sm-4 col-md-4">
-                              <a href="../stores/{{slug}}"><figure style="background-image:url({{alt_store_front_url}})"></figure></a>
-                         </div>
-                         <div class="service_details col-sm-8 col-md-8">
-                              <h2 class="section_header skincolored"><b><a href="../stores/{{slug}}">{{name}}</a></b><br><small>{{z_coordinate}}</small></h2>
-                              <p>{{description}}</p>
-                                <span><p class="pull-left"><i class="fa fa-phone"></i><a href="tel:{{phone}}">  {{phone}}</a></p><a href="../stores/{{slug}}" class="btn btn-primary pull-right">view detail</a></span>
-                               </div>
-                    </div>
-               </div>
+                         
             </script>
           </section> 
           <section id="store_category_list_container">
