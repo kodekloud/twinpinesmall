@@ -35,32 +35,53 @@
           <div class="categories_list" id="categories_container">
                 <a href="#categories_container" onclick="show_cat('nil','all')" class="btn btn-primary">View All</a>
           </div>
-          
-          <section class="service_teasers" id="store_list_container">
-            <script id="store_list_template" type="x-tmpl-mustache/text">
-                <section class="portfolio_strict">
-               <div class="row isotope_portfolio_container">
-                    <div class="cat_people col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                         <div class="portfolio_item"> <a href="../stores/{{slug}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
-                              <figure style="background-image:url({{alt_store_front_url}})">
+          <div class="portfolio_strict row" id="store_list_container">
+                <script id="store_list_template" type="x-tmpl-mustache/text">
+                    <div class="col-sm-4 col-md-4">
+                         <div class="portfolio_item wow animated flipInX"> <a href="portfolio_item.html" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                              <figure style="background-image:url(images/portfolio/p4.jpg)">
                                    <svg viewBox="0 0 180 320" preserveAspectRatio="none">
                                         <path d="M 180,0 0,0 0,0 180,0 z"/>
                                    </svg>
                                    <figcaption>
-                                        <p>{{description}}</p>
+                                        <p>Description of the project dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum....</p>
                                         <div class="view_button">View</div>
                                    </figcaption>
                               </figure>
                               </a>
                               <div class="portfolio_description">
-                                   <h3><a href="portfolio_item.html">{{name}}</a></h3>
-                                   <span><p class="pull-left"><i class="fa fa-phone"></i><a href="tel:{{phone}}">  {{phone}}</a></p><a href="../stores/{{slug}}" class="btn btn-primary pull-right">view detail</a></span>
+                                   <h3><a href="portfolio_item.html">Promotion title</a></h3>
+                                   <p>Design</p>
                               </div>
                          </div>
                     </div>
-                         </div>
-            </script>
-          </section> 
+                </script>
+        </div>
+          <!--<section class="service_teasers" id="store_list_container">-->
+          <!--  <script id="store_list_template" type="x-tmpl-mustache/text">-->
+          <!--      <section class="portfolio_strict">-->
+          <!--     <div class="row isotope_portfolio_container">-->
+          <!--          <div class="cat_people col-xs-12 col-sm-6 col-md-4 col-lg-4">-->
+          <!--               <div class="portfolio_item"> <a href="../stores/{{slug}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">-->
+          <!--                    <figure style="background-image:url({{alt_store_front_url}})">-->
+          <!--                         <svg viewBox="0 0 180 320" preserveAspectRatio="none">-->
+          <!--                              <path d="M 180,0 0,0 0,0 180,0 z"/>-->
+          <!--                         </svg>-->
+          <!--                         <figcaption>-->
+          <!--                              <p>{{description}}</p>-->
+          <!--                              <div class="view_button">View</div>-->
+          <!--                         </figcaption>-->
+          <!--                    </figure>-->
+          <!--                    </a>-->
+          <!--                    <div class="portfolio_description">-->
+          <!--                         <h3><a href="portfolio_item.html">{{name}}</a></h3>-->
+          <!--                         <span><p class="pull-left"><i class="fa fa-phone"></i><a href="tel:{{phone}}">  {{phone}}</a></p><a href="../stores/{{slug}}" class="btn btn-primary pull-right">view detail</a></span>-->
+          <!--                    </div>-->
+          <!--               </div>-->
+          <!--          </div>-->
+          <!--               </div>-->
+          <!--  </script>-->
+          <!--</section> -->
           <section id="store_category_list_container">
               <script id="category_store_list_template" type="x-tmpl-mustache/text">
                 <div class="cat_list_div" id="cat{{id}}" style="display:none">
