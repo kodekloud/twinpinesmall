@@ -38,8 +38,8 @@
           
           <section class="service_teasers" id="store_list_container">
             <script id="store_list_template" type="x-tmpl-mustache/text">
-               <div class="service_teaser">
-                    <div class="row">
+                <section class="portfolio_strict">
+               <div class="row isotope_portfolio_container">
                     <div class="cat_people col-xs-12 col-sm-6 col-md-4 col-lg-4">
                          <div class="portfolio_item"> <a href="../stores/{{slug}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
                               <figure style="background-image:url({{alt_store_front_url}})">
@@ -58,7 +58,7 @@
                               </div>
                          </div>
                     </div>
-                         
+                         </div>
             </script>
           </section> 
           <section id="store_category_list_container">
