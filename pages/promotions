@@ -19,17 +19,7 @@
           </section>
         <div class="service_teasers" id="promo_list_container">
             <script id="promo_list_template" type="x-tmpl-mustache/text">
-               <div class="service_teaser">
-                    <div class="row">
-                         <div class="service_photo col-sm-4 col-md-4">
-                              <a href="../promotions/{{slug}}"><figure style="background-image:url('{{alt_promo_image_url}}')"></figure></a>
-                         </div>
-                         <div class="service_details col-sm-8 col-md-8">
-                              <h2 class="section_header skincolored"><b><a href="../promotions/{{slug}}">{{name}}</a></b><p style="font-size:14px;color:#009cde;margin-top:15px;margin-bottom:5px;line-height:14px">{{store_name}}</p><p style="font-size:14px;color:gray;margin-bottom:0;line-height:14px">{{dates}}</p></h2>
-                              <p>{{description}}</p>
-                              <a href="../promotions/{{slug}}" class="btn btn-primary pull-right">View Details</a> </div>
-                    </div>
-               </div>
+               {{name}}
             </script>
         </section> 
         <section class="service_teasers" style="display:none" id="no_promo_container">
