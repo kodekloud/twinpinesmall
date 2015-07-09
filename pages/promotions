@@ -40,7 +40,7 @@
                 </div>
             </script>
         </div>
-        <div class="clearfix"></div>
+      
         <section class="service_teasers" style="display:none" id="no_promo_container">
             <h2>There are no promotions at this time, please check back later.</h2>
         </section>
