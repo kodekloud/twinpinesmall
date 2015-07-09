@@ -94,6 +94,18 @@
     a:hover{
         color:#999999 !important;
     }
+    
+    .navbar .nav li.active a:hover {
+  background-color: transparent;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.067);
+  color: black !important;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.067);
+  border-bottom: solid 1px #fff;
+  color: #fff;
+    }
+    
+    
+    
     .portfolio_item .portfolio_description p {
   margin: 0;
   float: left;
