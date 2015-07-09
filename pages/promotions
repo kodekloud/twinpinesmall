@@ -19,9 +19,25 @@
           </section>
         <div class="service_teasers" id="promo_list_container">
             <script id="promo_list_template" type="x-tmpl-mustache/text">
-               {{name}}
+               <div class="col-sm-4 col-md-4">
+                         <div class="portfolio_item wow animated flipInX"> <a href="../promotions/{{slug}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                              <figure style="background-image:url('{{alt_promo_image_url}}')">
+                                   <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                                        <path d="M 180,0 0,0 0,0 180,0 z"/>
+                                   </svg>
+                                   <figcaption>
+                                        <p>{{description}}</p>
+                                        <div class="view_button">{{store_name}}</div>
+                                   </figcaption>
+                              </figure>
+                              </a>
+                              <div class="portfolio_description">
+                                   <h3><a href="../promotions/{{slug}}">{{name}}</a></h3>
+                                   <p>{{dates}}</p>
+                              </div>
+                         </div>
+                    </div>
             </script>
-        </section> 
         <section class="service_teasers" style="display:none" id="no_promo_container">
             <h2>There are no promotions at this time, please check back later.</h2>
         </section>
