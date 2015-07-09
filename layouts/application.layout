@@ -101,7 +101,7 @@
     }
     
     .portfolio_item figure figcaption .view_button {
-        background:#299E48;
+        background:#299E48 !important;
     }
     body{
         background:white;
