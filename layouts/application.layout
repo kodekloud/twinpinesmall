@@ -95,6 +95,10 @@
         color:#999999 !important;
     }
     
+    .portfolio_item figure figcaption p {
+  
+  background: black;
+    }
     body{
         background:white;
     }
