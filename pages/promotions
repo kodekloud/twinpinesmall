@@ -17,7 +17,7 @@
                     <li class="active">Promotions</li>
                </ul>
           </section>
-        <div class="service_teasers" id="promo_list_container">
+        <div class="portfolio_strict row" id="promo_list_container">
             <script id="promo_list_template" type="x-tmpl-mustache/text">
                 <div class="col-sm-4 col-md-4">
                     <div class="portfolio_item wow animated flipInX"> 
@@ -34,7 +34,7 @@
                         </a>
                         <div class="portfolio_description">
                             <h3><a href="../promotions/{{slug}}">{{name}}</a></h3>
-                            
+                            <p>{{dates}}</p>
                         </div>
                     </div>
                 </div>
