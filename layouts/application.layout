@@ -97,7 +97,7 @@
     .portfolio_item .portfolio_description p {
   margin: 0;
   float: left;
-  padding-left: 10px;
+  padding-left: 10px !important;
   color: #888888;
   text-transform: uppercase;
   letter-spacing: 1px;
