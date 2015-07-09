@@ -1,0 +1,148 @@
+<div class="full_page_photo" style="background-image: url(http://kodekloud.s3.amazonaws.com/sites/54cfab316e6f6433ad020000/9643e9630b5dc806f5a810e06af3b8fd/yellow.png);">
+     <div class="container">
+          <!-- <section class="call_to_action">
+               <h3 class="animated bounceInDown skincolored">we design <strong>value</strong> into profit</h3>
+               <br>
+               <h4 class="animated bounceInUp">our <strong>customers</strong> are always <strong>happy</strong>!</h4>
+          </section> -->
+     </div>
+</div>
+<div class="main">
+     <div class="container">
+          <section class="hgroup centered">
+               <h1>Promotions</h1>
+               <!-- <h2>This is a <b>hgroup.centered</b> In hac habitasse platea dictumst. Donec aliquet tellus enim, a tincidunt nulla.</h2> -->
+               <ul class="breadcrumb pull-right">
+                    <li><a href="/home">Home</a> </li>
+                    <li class="active">Promotions</li>
+               </ul>
+          </section>
+        <section class="service_teasers" id="promo_list_container">
+            <script id="promo_list_template" type="x-tmpl-mustache/text">
+<div class="col-sm-4 col-md-4">
+                         <div class="portfolio_item wow animated flipInX"> <a href="../promotions/{{slug}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                              <figure style="background-image:url('{{alt_promo_image_url}}')">
+                                   <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                                        <path d="M 180,0 0,0 0,0 180,0 z"/>
+                                   </svg>
+                                   <figcaption>
+                                        <p>{{description}}</p>
+                                        <div class="view_button">{{store_name}}</div>
+                                   </figcaption>
+                              </figure>
+                              </a>
+                              <div class="portfolio_description">
+                                   <h3><a href="../promotions/{{slug}}">{{name}}</a></h3>
+                                   <p>{{dates}}</p>
+                              </div>
+                         </div>
+                    </div>
+
+<script>
+    $("#promotion_link").addClass("active");
+    $(document).ready(function() {
+        
+        
+        function renderPageData(){
+            all_promos = getPromotionsList();
+            if (all_promos.length > 0 ) {
+                renderTemplate("#promo_list_container","#promo_list_template", all_promos);    
+            } else {
+                $("#no_promo_container").show();
+            } 
+        }
+        
+        
+        
+        function renderTemplate(container, template, collection){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            $.each( collection , function( key, val ) {
+
+                if ((val.promo_image_url_abs).indexOf('missing.png') > -1){
+                    if (val.promotionable_type == "Store") {
+                        var store_details = getStoreDetailsByID(val.promotionable_id);
+                        val.alt_promo_image_url = (store_details.store_front_url_abs);
+                        val.store_name = store_details.name
+                    } else {
+                        val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/dcd66cb0efbccf1a9dc76822e0b9da23/logo_10dundas.png"
+                    }
+                    
+                } else {
+                    val.alt_promo_image_url = (val.promo_image_url_abs);
+                    if (val.promotionable_type == "Store") {
+                        var store_details = getStoreDetailsByID(val.promotionable_id);
+                        val.store_name = store_details.name
+                    }
+
+                }
+                console.log(val.alt_promo_image_url)
+                
+                start = new Date (val.start_date);
+                end = new Date (val.end_date);
+                val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();
+                
+               
+                
+                
+                
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+                
+                
+            });
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+            
+        }
+        
+        function get_month (id){
+            switch(id) {
+                case 0:
+                    month = "Jan"
+                    break;
+                case 1:
+                    month = "Feb"
+                    break;
+                case 2:
+                    month = "Mar"
+                    break;
+                case 3:
+                    month = "Apr"
+                    break;
+                case 4:
+                    month = "May"
+                    break;
+                case 5:
+                    month = "June"
+                    break;
+                case 6:
+                    month = "July"
+                    break;
+                case 7:
+                    month = "Aug"
+                    break;
+                case 8:
+                    month = "Sep"
+                    break;
+                case 9:
+                    month = "Oct"
+                    break;
+                case 10:
+                    month = "Nov"
+                    break;
+                case 11:
+                    month = "Dec"
+                    break;
+                    
+            }
+            return month;
+        }
+        
+
+        
+        loadMallData(renderPageData);
+    });
+</script>
