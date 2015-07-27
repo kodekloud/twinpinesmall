@@ -85,6 +85,10 @@
     /*custom styles*/
     
     /*hyperlinks*/
+    
+    .portfolio_item {
+    box-shadow:none;
+    }
     a{
         color:black;
         text-decoration:inherit;
