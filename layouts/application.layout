@@ -87,7 +87,7 @@
     /*hyperlinks*/
     
     .portfolio_item {
-    box-shadow:none;
+    box-shadow:none !important;
     }
     a{
         color:black;
