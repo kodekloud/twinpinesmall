@@ -1,3 +1,17 @@
+<style>
+
+.portfolio_strict .portfolio_item .portfolio_description p {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+    
+</style>
+
 <div class="full_page_photo" style="background-image: url(http://kodekloud.s3.amazonaws.com/sites/54cfab316e6f6433ad020000/9643e9630b5dc806f5a810e06af3b8fd/yellow.png);">
      <div class="container">
           <!-- <section class="call_to_action">
