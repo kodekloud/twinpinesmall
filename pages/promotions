@@ -8,6 +8,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: bold;
+    padding-left: 30px !important;
 }
     
 </style>
