@@ -329,9 +329,66 @@
                     </ul>
                </div>
           </div>
-          
+          <div class="footer_teaser col-sm-4 col-md-4">
+                    <div class="search-results" id="search_results" style="display:none">
+                        <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
+                        <script id="search_results_template" type="x-tmpl-mustache/text">{% raw %}
+                        <h4 class="list-group-item header" style="{{stores_header_style}}" data-i18n="nav.stores"></h4>
+                        {{#stores}}
+                            <a href="/stores/{{slug}}" class="list-group-item">
+                                <div class="name">{{name}}</div>
+                                <div class="description">{{description_trim}}</div>
+                                <div class="phone">{{phone}}</div>
+                            </a>
+                        {{/stores}}
+                        <h4 class="list-group-item header" style="{{promotions_header_style}}" data-i18n="nav.promotions"></h4>
+                        {{#promotions}}
+                            <a href="/promotions/{{slug}}" class="list-group-item">
+                                <div class="name">{{name}}</div>
+                                <div class="description">{{description_trim}}</div>
+                            </a>
+                        {{/promotions}}
+                        <h4 class="list-group-item header" style="{{events_header_style}}" data-i18n="nav.events"></h4>
+                        {{#events}}
+                            <a href="/events/{{slug}}" class="list-group-item">
+                                <div class="name">{{name}}</div>
+                                <div class="description">{{description_trim}}</div>
+                            </a>
+                        {{/events}}
+                        </script>{% endraw %}
+                    
+                        <ul class="list-group" >
+                            
+                            
+                            <a  class="close-search list-group-item" style="">
+                                <small>
+                                    <span class="search-results-count">{{count}} results found.</span>&nbsp;<span data-i18n="general.results"></span> 
+                                </small>
+                            </a>
+                            <a  class="close-search list-group-item" style="">
+                                <small>
+                                    <span>Today's Hours </span>
+                                </small>
+                                <small class="pull-right" id="todays-hours-search">
+                                
+                                </small>
+                                <script id="todays_hours_search_template" type="x-tmpl-mustache/text">{% raw %}
+                                    <span style="{{is_open_css}};">
+                                        {{open_time_localized}} - {{close_time_localized}}
+                                    </span>
+                                    <span style="{{is_closed_css}};">
+                                        Closed
+                                    </span>
+                                </script>{% endraw %}
+                            </a>
+                            <div id="search_results_items" class="search-results-items" style="">
+                            <!--RENDERED BY renderSearchResultsTemplate(..) -->
+                            </div>
+                        </ul>
+                    </div>
+                 </div>
           <div id="social_media_wrapper"> 
-          <input style="color:black;width:265px" type="text" id="search_input" class="search_input" placeholder="Search"><button class="search_button"><img alt="Search" src="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/70483e4f30054855ef30b8872dc7948d/icon_search.png"/></button>
+          
           <a href="https://www.facebook.com/10DundasEast" target="_blank"><i class="fa fa-facebook"></i><p style="display:none">facebook</p></a> <a href="https://twitter.com/10DundasEast" target="_blank"><i class="fa fa-twitter"></i><p style="display:none">twitter</p></a><a href="http://instagram.com/10dundaseast" target="_blank"><i class="fa fa-instagram"></i><p style="display:none">instagram</p></a><a href="https://www.youtube.com/user/10DundasEast" target="_blank"><i class="fa fa-youtube"></i><p style="display:none">youtube</p></a></div>
           <a href="http://bentallkennedy.com/" target="_blank"><img class="property_logo" alt="logo" src="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/14d7e193a4e12033723bf919343b9d1f/bental-logo1.png"/></a>
      </div>
