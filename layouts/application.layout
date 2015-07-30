@@ -347,7 +347,7 @@
                     <div id="footer_container">
                         <script id="footer_template" type="x-tmpl-mustache/text">
                         {% raw %}
-                        <h3>{{name}}</h3>
+                        <h3>ABOUT US</h3>
                         {{address1}} </br> {{postal_code}}</br>
                         {{city}}, {{province_state}}
                         </br>
