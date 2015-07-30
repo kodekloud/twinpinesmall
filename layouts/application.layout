@@ -348,9 +348,10 @@
                         <script id="footer_template" type="x-tmpl-mustache/text">
                         {% raw %}
                         <h3>ABOUT US</h3>
-                        Twin Pine Mall ranks as one of the highest 
+                        Twin Pine Mall ranks as one of the highest 
 performing shopping centres in North America
-with sales of over $1,300 per square foot.</br> {{postal_code}}</br>
+with sales of over $1,300 per square foot.</br>
+                        {{address1}} </br> {{postal_code}}</br>
                         {{city}}, {{province_state}}
                         </br>
                         </br>
