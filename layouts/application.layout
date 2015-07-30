@@ -428,7 +428,7 @@ with sales of over $1,300 per square foot.</br>
                     </div>
                  </div>
                  <div class="footer_teaser col-sm-4 col-md-4">
-                    <h3 class="footer_text" style="font-size:17px;width:300px;text-align:center">Sign Up to E-Connection</h3>
+                    <h3 class="footer_text" style="font-size:17px;width:300px;text-align:center">Explore</h3>
                     <p class="footer_text" style="width:300px;font-size:17px">Join our list and stay connected to be the first to hear about special sales & exclusive events!</p>
                     <form action="http://mobilefringe.createsend.com/t/d/s/tkyhii/" method="post" id="subForm">
                         <label for="fieldEmail" style="display:none"> subscribe email </label>
