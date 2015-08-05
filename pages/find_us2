@@ -31,9 +31,7 @@
                      <p class="directory_content">From TTC
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
 </p>
-                    <p class="directory_content">c/o Bentall Kennedy</p>
-                    <p class="directory_content">{{address1}}</p>
-                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                    
                 </script>
             </div>
             
