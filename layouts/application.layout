@@ -90,7 +90,7 @@
     box-shadow:none !important;
     }
     a{
-        color:green;
+        color:black;
         text-decoration:inherit;
     }
     
