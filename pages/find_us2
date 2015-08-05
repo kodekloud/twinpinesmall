@@ -12,8 +12,39 @@
     <div class="inside_page_content">
        
         <div class="left_column">
-            <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.751869106626!2d-79.6688062!3d43.44489800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b5c8c4ca9fbe1%3A0x63577e37b5b87af5!2s166+Lakeshore+Rd+E%2C+Oakville%2C+ON+L6J+1H6!5e0!3m2!1sen!2sca!4v1437497970107" style="border:0" title="Map">Directions</iframe>
-           
+            <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/1f4fed1d858c9ddcaf0105aacf32e785/store_list_banner.jpg"/>
+             <div class="show_mobile">
+            <p class="right_column_header">centre information</p>
+            <div id="centre_info_container_mobile">
+                <script id="centre_info_template_mobile" type="x-tmpl-mustache/text">
+                    <p class="directory_content">{{name}}</p>
+                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                    <br>
+                    <p class="directory_content"><strong>Lisa Peatt</strong> 
+                    <br>General Manager
+                    <br>416-591-2220 ext 22
+                    <br><a href="mailto:lpeatt@bentallkennedy.com ">lpeatt@bentallkennedy.com</a></p>
+                    <br>
+                    <p class="directory_content"><strong>Ludmila Dorosz</strong> 
+                    <br>Assistant Property Manager
+                    <br>416-591-2220  ext 21
+                    <br><a href="mailto:ldorosz@bentallkennedy.com ">ldorosz@bentallkennedy.com</a></p>
+                    <br>
+                   <p class="directory_content"><strong>Rob Tooke</strong> 
+                   <br>Operations Manager
+                   <br>416-591-2220 ext 24
+                   <br><a href="mailto:rtooke@bentallkennedy.com" target="_blank">rtooke@bentallkennedy.com</a></p>
+                   <br>
+                   <p class="directory_content"><strong>Jessica Kim</strong> 
+                   <br>Marketing Manager
+                   <br>416-591-2220 ext 31
+                   <br><a href="mailto:jkim@bentallkennedy.com" target="_blank">jkim@bentallkennedy.com</a></p>
+                  
+                   
+                    <br>
+                </script>
+            </div>
         </div>
             <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
               <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
