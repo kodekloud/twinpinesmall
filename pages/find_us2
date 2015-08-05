@@ -27,12 +27,7 @@
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
                     <p class="directory_content">216 Chrislea Road Vaughan ON L4L8S5
-
-From TTC
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-
-Drive Direction
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially versions of Lorem Ipsum.</p>
+}</p>
                      <p class="directory_content">18 Signature Properties</p>
                     <p class="directory_content">c/o Bentall Kennedy</p>
                     <p class="directory_content">{{address1}}</p>
