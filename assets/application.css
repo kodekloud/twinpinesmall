@@ -474,6 +474,7 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
+/********************inside page CSS*****************************/
 .inside_page_content{
     width:960px;
     display:block;
@@ -482,8 +483,8 @@ textarea {
     margin-top:32px;
 }
 .left_column{
-    width:700px;
-    padding-right:20px;
+    width:602px;
+    padding-right:43px;
     display:inline-block;
     border-right:1px solid #eeeeee;
 }
