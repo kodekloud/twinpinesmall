@@ -493,6 +493,7 @@ textarea {
     display:inline-block;
     vertical-align:top;
     margin-top:-5px;
+    max-width:300px;
     
 }
 .right_column_header{
