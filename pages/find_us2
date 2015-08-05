@@ -4,13 +4,13 @@
 <div  id="main_content" style="display:none">
     <ul class="breadcrumb">
         <li><a href="/home">Home</a> </li>
-        <li class="active">Contact Us</li>
+        <li><a href="/home">Contact Us</a> </li>
+        <li class="active">Find Us</li>
     </ul>
     <div class="page_banner">
-        Contact Us
+        Find Us
     </div>
     <div class="inside_page_content">
-       
         <div class="left_column">
             <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.751869106626!2d-79.6688062!3d43.44489800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b5c8c4ca9fbe1%3A0x63577e37b5b87af5!2s166+Lakeshore+Rd+E%2C+Oakville%2C+ON+L6J+1H6!5e0!3m2!1sen!2sca!4v1437497970107" style="border:0" title="Map">Directions</iframe>
         </div>
@@ -19,35 +19,10 @@
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
                     <p class="directory_content">{{name}}</p>
+                     <p class="directory_content">18 Signature Properties</p>
+                    <p class="directory_content">c/o Bentall Kennedy</p>
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-                     <br>
-                                       <p class="directory_content"><strong>Lisa Peatt</strong> 
-                    <br>General Manager
-                    <br>416-591-2220 ext 22
-                    <br><a href="mailto:lpeatt@bentallkennedy.com ">lpeatt@bentallkennedy.com</a></p>
-                    <br>
-                    <p class="directory_content"><strong>Ludmila Dorosz</strong> 
-                    <br>Assistant Property Manager
-                    <br>416-591-2220  ext 21
-                    <br><a href="mailto:ldorosz@bentallkennedy.com ">ldorosz@bentallkennedy.com</a></p>
-                    <br>
-                   <p class="directory_content"><strong>Rob Tooke</strong> 
-                   <br>Operations Manager
-                   <br>416-591-2220 ext 24
-                   <br><a href="mailto:rtooke@bentallkennedy.com" target="_blank">rtooke@bentallkennedy.com</a></p>
-                   <br>
-                   <p class="directory_content"><strong>Jessica Kim</strong> 
-                   <br>Marketing Manager
-                   <br>416-591-2220 ext 31
-                   <br><a href="mailto:jkim@bentallkennedy.com" target="_blank">jkim@bentallkennedy.com</a></p>
-                  
-                   
-                    <br>
-                   <p class="directory_content"><strong>Security </strong> 
-                  
-                   <br>416-591-2220 ext 25
-                 </p>
                 </script>
             </div>
             
@@ -56,57 +31,15 @@
     </div>
 </div>
 <script>
-        function randomgen() {
-            var rannumber='';
-        for(ranNum=1; ranNum<=6; ranNum++){
-          rannumber+=Math.floor(Math.random()*10).toString();
-        }
-        $('#verifyNum').html(rannumber);
-        $('#verifyNumHidden').val(rannumber);
-      }
-      randomgen();
-      
-        
-        $('#contact_form').submit(function(e) {
-
-        if($('#enterVerify').val() == $('#verifyNumHidden').val() ) {
-                values = [];
-                values = JSON.stringify($('#contact_form').serializeArray());
-                e.preventDefault();
-                $.ajax({
-                    url : "/api/v1/contact_us",
-                    type: "POST",
-                    data : {authenticity_token: '<%=form_authenticity_token%>' ,
-                    form_data:values},
-                    success: function(data, textStatus, jqXHR)
-                    {
-                        $('#send_contact_success').fadeIn();
-                        $('#contact_form').find("input[type=text], textarea").val("");
-                    },
-                    error: function (jqXHR, textStatus, errorThrown)
-                    {
-                        $('#send_contact_error').fadeIn();
-                    }
-                });
-
-            
-        }
-        else
-        {
-          alert("Please Enter Correct Verification Number");
-          randomgen();
-          e.preventDefault();
-        }
-      });
-   $(document).ready(function() {
+    $(document).ready(function() {
         function renderAll (){
             var propertyDetails = getPropertyDetails();
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
-            renderPageData('#centre_info_container_mobile','#centre_info_template_mobile',propertyDetails, 'property_details')
             $("#loading_screen").hide();
             $("#main_content").show();
         }
-
+        
+    
         function renderPageData(container, template, collection, type){
             var item_list = [];
             var item_rendered = [];
