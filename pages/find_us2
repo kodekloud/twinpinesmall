@@ -25,14 +25,14 @@
         <div class="right_column">
             <p class="right_column_header">location</p>
             <div id="centre_info_container">
-                <script id="centre_info_template" type="x-tmpl-mustache/text">
+               
                     <p class="directory_content">216 Chrislea Road Vaughan ON L4L8S5
 }</p>
                      <p class="directory_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
 
 </p>
                     
-                </script>
+               
             </div>
             
             
