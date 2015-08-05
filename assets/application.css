@@ -476,14 +476,14 @@ textarea {
 }
 /********************inside page CSS*****************************/
 .inside_page_content{
-    width:960px;
+    width:1200px;
     display:block;
     margin-left:43px;
     margin-right:0;
     margin-top:32px;
 }
 .left_column{
-    width:602px;
+    width:800px;
     padding-right:43px;
     display:inline-block;
     border-right:1px solid #eeeeee;
