@@ -19,7 +19,8 @@
           </section>
     <div class="inside_page_content">
         <div class="left_column">
-        <img src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.8756440191914!2d-79.5436481!3d43.79619339999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2f90abcd9c15%3A0xd877211faeb6b21a!2s216+Chrislea+Rd%2C+Woodbridge%2C+ON+L4L!5e0!3m2!1sen!2sca!4v1438812015337" style="border:0" title="Map">Directions</iframe>
+        <img src="http://assets.kodekloud.io/sites/55887c646e6f642257020000/7d9dc7c16e8f52756df52853ffa269db/Screen Shot 2015-08-05 at 5.47.05 PM.png">
+            <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.8756440191914!2d-79.5436481!3d43.79619339999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2f90abcd9c15%3A0xd877211faeb6b21a!2s216+Chrislea+Rd%2C+Woodbridge%2C+ON+L4L!5e0!3m2!1sen!2sca!4v1438812015337" style="border:0" title="Map">Directions</iframe>
         </div>
         <div class="right_column">
             <p class="right_column_header">location</p>
