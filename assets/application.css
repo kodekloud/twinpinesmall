@@ -476,7 +476,7 @@ textarea {
 }
 /********************inside page CSS*****************************/
 .inside_page_content{
-    width:1200px;
+    max-width:1200px;
     display:block;
     margin-left:43px;
     margin-right:0;
