@@ -475,6 +475,38 @@ textarea {
   line-height: inherit;
 }
 /********************inside page CSS*****************************/
+
+@media only screen and (max-width: 767px)
+{
+   .inside_page_content{
+    width:100%;
+    display:block;
+    margin-left:0px;
+    margin-right:0;
+    margin-top:32px;
+}
+.left_column{
+    max-width:700px;
+    padding-right:0px;
+    display:inline-block;
+    border-right:1px solid #eeeeee;
+}
+.right_column{
+    margin-left:0px;
+    display:inline-block;
+    vertical-align:top;
+    margin-top:-5px;
+    max-width:300px;
+    
+}
+.right_column_header{
+    color:#0076a8;
+    font-size:20px;
+    text-transform:uppercase;
+    margin-bottom:0;
+    font-weight:bold;
+} 
+}
 .inside_page_content{
     width:100%;
     display:block;
