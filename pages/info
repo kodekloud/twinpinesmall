@@ -14,7 +14,7 @@
                <!-- <h2>This is a <b>hgroup.centered</b> In hac habitasse platea dictumst. Donec aliquet tellus enim, a tincidunt nulla.</h2> -->
                <ul class="breadcrumb pull-right">
                     <li><a href="/home">Home</a> </li>
-                    <li class="active">Location</li>
+                    <li class="active">Twin Pine Mall Info</li>
                </ul>
           </section>
     <div class="inside_page_content">
@@ -23,7 +23,7 @@
            
         </div>
         <div class="right_column">
-            <p class="right_column_header">location</p>
+            <p class="right_column_header">Twin Pine Mall Info</p>
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
                     <p class="directory_content">win Pine Mall is a pre-eminent Canadian-based global property owner, manager, developer and investor, focusing on high-quality shopping centres located in urban areas. Beyond its strong Canada wide presence, the Company is also active elsewhere in North America, Latin America, Europe and Asia. where it owns a number of properties either by itself or through joint ventures with prominent real estate partners.</p>
