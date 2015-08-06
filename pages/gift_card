@@ -41,7 +41,7 @@ The Outlet Collection at Niagara Gift Card is redeemable at most of our stores a
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
                     <img src="http://assets.kodekloud.io/sites/55887c646e6f642257020000/a00b3dc0e46fee3bcf45dc7d3f737518/gitftcard.png">
-           <br><br> <center> <button id="submit" class="btn btn-primary" type="submit">Check Your Gift Card Balance</button></center>
+           <br><br> <center> <a href="www.checkmybalance.com"><button id="submit" class="btn btn-primary" type="submit">Check Your Gift Card Balance</button></a></center>
    
                 </script>
             </div>
