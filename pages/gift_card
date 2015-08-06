@@ -10,11 +10,11 @@
 <div class="main">
      <div class="container">
           <section class="hgroup centered">
-               <h1>Twin Pines Mall Info</h1>
+               <h1>Gift Cards</h1>
                <!-- <h2>This is a <b>hgroup.centered</b> In hac habitasse platea dictumst. Donec aliquet tellus enim, a tincidunt nulla.</h2> -->
                <ul class="breadcrumb pull-right">
                     <li><a href="/home">Home</a> </li>
-                    <li class="active">Twin Pines Mall Info</li>
+                    <li class="active">Gift Cards</li>
                </ul>
           </section>
     <div class="inside_page_content">
