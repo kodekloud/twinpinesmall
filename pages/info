@@ -26,7 +26,7 @@
             
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
-                    <p class="directory_content">win Pine Mall is a pre-eminent Canadian-based global property owner, manager, developer and investor, focusing on high-quality shopping centres located in urban areas. Beyond its strong Canada wide presence, the Company is also active elsewhere in North America, Latin America, Europe and Asia. where it owns a number of properties either by itself or through joint ventures with prominent real estate partners.</p>
+                    <p class="directory_content">Twin Pines Mall is a pre-eminent Canadian-based global property owner, manager, developer and investor, focusing on high-quality shopping centres located in urban areas. Beyond its strong Canada wide presence, the Company is also active elsewhere in North America, Latin America, Europe and Asia. where it owns a number of properties either by itself or through joint ventures with prominent real estate partners.</p>
                      <p class="directory_content">Title<br>
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only tive centuries.
 </p>
