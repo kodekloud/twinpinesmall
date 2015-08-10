@@ -293,9 +293,12 @@
                         <li><a onclick="javascript:toggle_submenu('contact_dd');">Information <span class="caret"></span></a>
                             <div id="contact_dd" class="submenu" style="display:none">
                                 <ul>
-                                    <li><a href="/contact_us">Contact Us</a></li>
-                                    <li><a href="/Location">Find Us</a></li>
-                                    <li><a href="/about_us">About Us</a></li>
+                                    <li><a href="/hours">Hourss</a></li>
+                                    <li><a href="/find_us2">Location</a></li>
+                                    <li><a href="/about_us">Twin Pines Mall</a></li>
+                                    <li><a href="/info">Info</a></li>
+                                     <li><a href="/info">Guest Services</a></li>
+                                     <li><a href="/gift_card">Gift Cards</a></li>
                                 </ul>    
                             </div>
                         </li>
@@ -319,9 +322,12 @@
                         
                          <li id="contact_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Information <span class="caret"></span></a>
                              <ul class="dropdown-menu">
-                                <li><a href="/contact_us">Contact Us</a></li>
-                                <li><a href="/find_us2">Location</a></li>
-                                <li><a href="/about_us">About Us</a></li>
+                                 <li><a href="/hours">Hourss</a></li>
+                                    <li><a href="/find_us2">Location</a></li>
+                                    <li><a href="/about_us">Twin Pines Mall</a></li>
+                                    <li><a href="/info">Info</a></li>
+                                     <li><a href="/info">Guest Services</a></li>
+                                     <li><a href="/gift_card">Gift Cards</a></li>
                             </ul> 
                          </li>
                           
