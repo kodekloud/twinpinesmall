@@ -96,6 +96,9 @@
     td a {
         color:white;
     }
+    i a {
+        color:white;
+    }
     a{
         color:black;
         text-decoration:inherit;
