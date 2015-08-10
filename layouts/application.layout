@@ -370,7 +370,7 @@ with sales of over $1,300 per square foot.</br>
                         </br>
                         </br>
                         <p><i class="fa fa-phone"></i> 905-222-2222</p>
-                        <p><i class="fa fa-envelope"></i> <a href="mailto:info@twinpines.com">info@twinpines.com</a></p>
+                        <p class="email"><i class="fa fa-envelope"></i> <a href="mailto:info@twinpines.com">info@twinpines.com</a></p>
                       
                         <br>
                         </br>
