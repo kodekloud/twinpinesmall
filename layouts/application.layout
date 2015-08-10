@@ -439,8 +439,39 @@ with sales of over $1,300 per square foot.</br>
                     </p>
                    
                     <tr>
-                        <td style="width:50px">About Us</td>
-                        <td style="align:right">Connect</td>
+                        <td>Home</td>
+                        <td>Location</td>
+                    
+                    </tr>
+                     <tr>
+                        <td>Store List</td>
+                        <td>Twin Pines Mall Info</td>
+                    
+                    </tr>
+                     <tr>
+                        <td>Floor Plan</td>
+                        <td>Guest Services</td>
+                    
+                    </tr>
+                     <tr>
+                        <td>Promotions</td></td>
+                        <td>Gift Card Balance</td>
+                    
+                    </tr>
+                     <tr>
+                        <td>Events</td>
+                        <td>Jobs</td>
+                    
+                    </tr>
+                     <tr>
+                        <td>Blog</td>
+                        <td>Hours</td>
+                    
+                    </tr>
+                     <tr>
+                        <td>Home</td>
+                        
+                    
                     </tr>
                   
                  </div>
