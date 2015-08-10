@@ -96,7 +96,7 @@
     td a {
         color:white;
     }
-    .fa a {
+    .email a {
         color:white;
     }
     a{
