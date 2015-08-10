@@ -89,6 +89,11 @@
     .portfolio_item {
     box-shadow:none !important;
     }
+    
+    td {
+        margin-top:20px;
+    }
+    
     a{
         color:black;
         text-decoration:inherit;
