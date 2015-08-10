@@ -294,7 +294,7 @@
                             <div id="contact_dd" class="submenu" style="display:none">
                                 <ul>
                                     <li><a href="/contact_us">Contact Us</a></li>
-                                    <li><a href="/find_us2">Find Us</a></li>
+                                    <li><a href="/Location">Find Us</a></li>
                                     <li><a href="/about_us">About Us</a></li>
                                 </ul>    
                             </div>
@@ -320,7 +320,7 @@
                          <li id="contact_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Information <span class="caret"></span></a>
                              <ul class="dropdown-menu">
                                 <li><a href="/contact_us">Contact Us</a></li>
-                                <li><a href="/find_us2">Find Us</a></li>
+                                <li><a href="/find_us2">Location</a></li>
                                 <li><a href="/about_us">About Us</a></li>
                             </ul> 
                          </li>
