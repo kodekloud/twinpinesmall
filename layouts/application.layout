@@ -433,11 +433,14 @@ with sales of over $1,300 per square foot.</br>
                  </div>
                  <div class="footer_teaser col-sm-4 col-md-4">
                     <h3 class="footer_text" style="font-size:17px;width:300px;text-align:center">Explore</h3>
-                    <p class="footer_text" style="width:300px;font-size:17px">Join our list and stay connected to be the first to hear about special sales & exclusive events!</p>
-                    <tbody>
+                    <p class="footer_text" style="width:300px;font-size:17px">Join our list and stay connected to be the first to hear about special sales & exclusive events!
+                        
+                        
+                    </p>
+                   
                     <tr>
                         <td style="width:50px">About Us</td>
-                        <td style="width:50px">Connect</td>
+                        <td style="align:right">Connect</td>
                     </tr>
                   
                  </div>
