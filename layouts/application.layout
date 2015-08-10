@@ -96,7 +96,7 @@
     td a {
         color:white;
     }
-    i a {
+    .fa a {
         color:white;
     }
     a{
