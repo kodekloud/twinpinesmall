@@ -93,7 +93,9 @@
     td {
         padding-top:7px;
     }
-    
+    td a {
+        color:white;
+    }
     a{
         color:black;
         text-decoration:inherit;
