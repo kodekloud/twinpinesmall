@@ -437,7 +437,7 @@ with sales of over $1,300 per square foot.</br>
                         
                         
                     </p>
-                   
+                   <table>
                     <tr>
                         <td>Home</td>
                         <td>Location</td>
@@ -454,7 +454,7 @@ with sales of over $1,300 per square foot.</br>
                     
                     </tr>
                      <tr>
-                        <td>Promotions</td></td>
+                        <td>Promotions</td>
                         <td>Gift Card Balance</td>
                     
                     </tr>
@@ -473,7 +473,7 @@ with sales of over $1,300 per square foot.</br>
                         
                     
                     </tr>
-                  
+                  </table>
                  </div>
             </div>
         </div>
