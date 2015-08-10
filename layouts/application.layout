@@ -490,28 +490,7 @@ with sales of over $1,300 per square foot.</br>
         
     </section>
     
-    <section class="site-map-section">
-        <div class="bottom-site-map">
-            <ul style="margin-bottom:0;padding:0">
-                <li>
-                    <a href="/stores">Store Directory</a>
-                </li>
-                <li>
-                    <a href="/events">Events</a>
-                </li>
-                <li>
-                    <a href="/promotions">Promotions</a>
-                </li>
-                <li>
-                    <a href="/leasing">Leasing</a>
-                </li>
-                <li>
-                    <a href="/contact_us">contact Us</a>
-                </li>
-                
-            </ul>
-        </div>
-    </section>
+   
       <section class="copyright">
            <div class="container">
                 <div class="row">
