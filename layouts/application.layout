@@ -99,6 +99,9 @@
     .email a {
         color:white;
     }
+    .text-right col-sm-6 col-md-6 footer-text a {
+        color:white;
+    }
     a{
         color:black;
         text-decoration:inherit;
