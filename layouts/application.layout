@@ -94,7 +94,10 @@
         padding-top:7px;
     }
     
-    
+    a{
+        color:white;
+        text-decoration:inherit;
+    }
     
     /*hyperlink hover color*/
     a:hover{
