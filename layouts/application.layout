@@ -295,7 +295,6 @@
                                 <ul>
                                     <li><a href="/hours">Hourss</a></li>
                                     <li><a href="/find_us2">Location</a></li>
-                                    <li><a href="/about_us">Twin Pines Mall</a></li>
                                     <li><a href="/info">Info</a></li>
                                      <li><a href="/info">Guest Services</a></li>
                                      <li><a href="/gift_card">Gift Cards</a></li>
@@ -324,7 +323,6 @@
                              <ul class="dropdown-menu">
                                  <li><a href="/hours">Hourss</a></li>
                                     <li><a href="/find_us2">Location</a></li>
-                                    <li><a href="/about_us">Twin Pines Mall</a></li>
                                     <li><a href="/info">Info</a></li>
                                      <li><a href="/info">Guest Services</a></li>
                                      <li><a href="/gift_card">Gift Cards</a></li>
