@@ -453,39 +453,35 @@ with sales of over $1,300 per square foot.</br>
                    <table>
                     <tr>
                         <td style="width:150px"><a href="/">Home</a></td>
-                        <td>Location</td>
+                        <td><a href="/">Location</a></td>
                     
                     </tr>
                      <tr>
-                        <td>Store List</td>
-                        <td>Twin Pines Mall Info</td>
+                        <td><a href="/stores">Store List</a></td>
+                        <td><a href="/info">Twin Pines Mall Info</a></td>
                     
                     </tr>
                      <tr>
-                        <td>Floor Plan</td>
-                        <td>Guest Services</td>
+                        <td><a href="/map">Floor Plan</a></td>
+                        <td><a href="/guest_services">Guest Services</a></td>
                     
                     </tr>
                      <tr>
-                        <td>Promotions</td>
-                        <td>Gift Card Balance</td>
+                        <td><a href="/promotions">Promotions</a></td>
+                        <td><a href="/gift_card">Gift Card Balance</a></td>
                     
                     </tr>
                      <tr>
-                        <td>Events</td>
-                        <td>Jobs</td>
+                        <td><a href="/events">Events</a></td>
+                        <td><a href="/jobs">Jobs</a></td>
                     
                     </tr>
                      <tr>
-                        <td>Blog</td>
-                        <td>Hours</td>
+                        <td><a href="/posts">Blog</a></td>
+                        <td><a href="/hours">Hours</a></td>
                     
                     </tr>
-                     <tr>
-                        <td>Home</td>
-                        
                     
-                    </tr>
                   </table>
                  </div>
             </div>
