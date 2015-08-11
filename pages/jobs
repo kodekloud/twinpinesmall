@@ -43,7 +43,7 @@
                                 </svg>
                                 <figcaption>
                                     <p>{{description}}</p>
-                                    <div class="view_button">{{store_name}}</div>
+                                    <button id="submit" class="btn btn-primary"{{store_name}}</button>
                                 </figcaption>
                             </figure>
                         </a>
