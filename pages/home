@@ -70,7 +70,7 @@
                </div>
           </section>
           <section class="portfolio_teasers_wrapper">
-               <h2 class="section_header fancy centered">Upcoming Promotion & Events</h2>
+               <!--<h2 class="section_header fancy centered">Recent Work or Projects from Portfolio<small>we take pride in our work</small></h2> -->
                <div class="portfolio_strict row" id="feature_items">
                     <script id="feature_template" type="x-tmpl-mustache/text">
                     <div class="col-sm-4 col-md-4">
