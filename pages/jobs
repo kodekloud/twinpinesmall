@@ -36,16 +36,11 @@
             <script id="promo_list_template" type="x-tmpl-mustache/text">
                 <div class="col-sm-4 col-md-4">
                     <div class="portfolio_item wow animated flipInX"> 
-                        <a href="../promotions/{{slug}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
-                            <figure style="background-image:url('{{alt_promo_image_url}}')">
-                                <svg viewBox="0 0 180 320" preserveAspectRatio="none">
-                                    <path d="M 180,0 0,0 0,0 180,0 z"/>
-                                </svg>
-                                <figcaption>
+                        <a href="../promotions/{{slug}}" >
+                            
                                     
                                     <button class="btn btn-primary">{{store_name}}</button>
-                                </figcaption>
-                            </figure>
+                                
                         </a>
                         <div class="portfolio_description">
                             <h3><a href="../promotions/{{slug}}">{{name}}</a></h3>
