@@ -39,7 +39,7 @@
                         <a href="../promotions/{{slug}}" >
                             
                                     
-                                    <button class="btn btn-primary" style="width:50px">{{store_name}}</button>
+                                    <button class="btn btn-primary" style="width:200px">{{store_name}}</button>
                                 
                         </a>
                         <div class="portfolio_description">
