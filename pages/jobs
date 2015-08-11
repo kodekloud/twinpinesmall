@@ -1,56 +1,65 @@
 <style>
-    .promo_inside_content{
-        border-bottom:0;
-        padding-bottom:0;
-    }
-    .promo_date{
-        margin-bottom:0;
-    }
+
+.portfolio_strict .portfolio_item .portfolio_description p {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-left: 120px !important;
+}
+    
 </style>
 
-
-<div id="loading_screen">
-    <img alt="loading" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+<div class="full_page_photo" style="background-image: url(http://assets.kodekloud.io/sites/55887c646e6f642257020000/a35f08cc84c593929aa6fba61ad07430/banner.png);">
+     <div class="container">
+          <!-- <section class="call_to_action">
+               <h3 class="animated bounceInDown skincolored">we design <strong>value</strong> into profit</h3>
+               <br>
+               <h4 class="animated bounceInUp">our <strong>customers</strong> are always <strong>happy</strong>!</h4>
+          </section> -->
+     </div>
 </div>
-<div  id="main_content" style="display:none">
-    <ul class="breadcrumb">
-        <li><a href="/home">Home</a> </li>
-        <li><a href="/contact_us">Contact Us</a> </li>
-        <li class="active">Jobs</li>
-    </ul>
-    <div class="page_banner">
-        Jobs
-    </div>
-    <div class="inside_page_content">
-        <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/1f4fed1d858c9ddcaf0105aacf32e785/store_list_banner.jpg"/>
-            <div class="promo_list_div" id="promo_list_container">
-                <script id="promo_list_template" type="x-tmpl-mustache/text">
-                    <div class="promo_inside_content">
-                        <div class="promo_desc_box" style="width:100%">
-                            <a href="../jobs/{{slug}}"><p class="promo_header right_column_header">{{name}}</p></a>
-                            <p class="directory_content promo_date"><a href="/stores/{{store_detail_btn}}">{{store_name}}</a><br>{{job_type}}<a href="../jobs/{{slug}}" class="btn btn-primary pull-right" style="margin-top:-17px">Read More</a></p>
+<div class="main">
+     <div class="container">
+          <section class="hgroup centered">
+               <h1>Promotions</h1>
+               <!-- <h2>This is a <b>hgroup.centered</b> In hac habitasse platea dictumst. Donec aliquet tellus enim, a tincidunt nulla.</h2> -->
+               <ul class="breadcrumb pull-right">
+                    <li><a href="/home">Home</a> </li>
+                    <li class="active">Promotions</li>
+               </ul>
+          </section>
+        <div class="portfolio_strict row" id="promo_list_container">
+            <script id="promo_list_template" type="x-tmpl-mustache/text">
+                <div class="col-sm-4 col-md-4">
+                    <div class="portfolio_item wow animated flipInX"> 
+                        <a href="../promotions/{{slug}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                            <figure style="background-image:url('{{alt_promo_image_url}}')">
+                                <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                                    <path d="M 180,0 0,0 0,0 180,0 z"/>
+                                </svg>
+                                <figcaption>
+                                    <p>{{description}}</p>
+                                    <div class="view_button">{{store_name}}</div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                        <div class="portfolio_description">
+                            <h3><a href="../promotions/{{slug}}">{{name}}</a></h3>
+                            <p><img src="http://assets.kodekloud.io/sites/55887c646e6f642257020000/a35f08cc84c593929aa6fba61ad07430/calendar52.png" style="padding-right:5px;">{{dates}}</p>
                         </div>
                     </div>
-                </script>
-            </div>  
-            <section class="service_teasers" style="display:none" id="no_event_container">
-                <h2>There are no jobs posted at this time, please check back later.</h2>
-            </section>
+                </div>
+            </script>
         </div>
-        <div class="right_column">
-            <p class="right_column_header">centre information</p>
-            <div id="centre_info_container">
-                <script id="centre_info_template" type="x-tmpl-mustache/text">
-                    <p class="directory_content">{{name}}</p>
-                    <p class="directory_content">{{address1}}</p>
-                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-                </script>
-            </div>
-            
-            
-        </div>
-    </div>
+      
+        <section class="service_teasers" style="display:none" id="no_promo_container">
+            <h2>There are no promotions at this time, please check back later.</h2>
+        </section>
+     </div>
 </div>
 <script>
     $(document).ready(function() {
