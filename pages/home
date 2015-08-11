@@ -70,7 +70,7 @@
                </div>
           </section>
          <div class="portfolio_strict row" id="promo_list_container">
-            <script id="promo_list_template" type="x-tmpl-mustache/text">
+            <script id="feature_template" type="x-tmpl-mustache/text">
                 <div class="col-sm-4 col-md-4">
                     <div class="portfolio_item wow animated flipInX"> 
                         <a href="../promotions/{{slug}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
