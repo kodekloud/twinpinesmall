@@ -42,7 +42,7 @@
                                     <path d="M 180,0 0,0 0,0 180,0 z"/>
                                 </svg>
                                 <figcaption>
-                                    <p>{{description}}</p>
+                                    
                                     <button class="btn btn-primary">{{store_name}}</button>
                                 </figcaption>
                             </figure>
