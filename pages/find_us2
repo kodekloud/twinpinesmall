@@ -23,10 +23,10 @@
             <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.8756440191914!2d-79.5436481!3d43.79619339999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2f90abcd9c15%3A0xd877211faeb6b21a!2s216+Chrislea+Rd%2C+Woodbridge%2C+ON+L4L!5e0!3m2!1sen!2sca!4v1438812015337" style="border:0" title="Map">Directions</iframe>
         </div>
         <div class="right_column">
-            <p class="right_column_header">location</p>
+            <p class="right_column_header"><br>location</p>
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
-                    <p class="directory_content"> <br>216 Chrislea Road Vaughan ON L4L8S5
+                    <p class="directory_content">216 Chrislea Road Vaughan ON L4L8S5
 }</p>
                      <p class="directory_content">From TTC<br>
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
