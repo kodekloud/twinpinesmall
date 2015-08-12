@@ -10,7 +10,20 @@
     font-weight: bold;
     padding-left: 120px !important;
 }
-    
+    .portfolio_strict .portfolio_item figure figcaption p {
+    padding: 10px 20px;
+    color: #aaa;
+    font-weight: 300;
+    font-size: 13px;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    timing-function: cubic-bezier(0.25, 0.25, 0.115, 1.445);
+    -webkit-animation-timing-function: cubic-bezier(0.25, 0.25, 0.115, 1.445);
+    opacity: 0;
+    display: none !important;
+}
 </style>
 
 <div class="full_page_photo" style="background-image: url(http://assets.kodekloud.io/sites/55887c646e6f642257020000/a35f08cc84c593929aa6fba61ad07430/banner.png);">
