@@ -334,7 +334,7 @@
                         
                          <li id="contact_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Information <span class="caret"></span></a>
                              <ul class="dropdown-menu">
-                                 <li><a href="/hours">Hourss</a></li>
+                                 <li><a href="/hours">Hours</a></li>
                                     <li><a href="/find_us2">Location</a></li>
                                     <li><a href="/info">Info</a></li>
                                      <li><a href="/guest_services">Guest Services</a></li>
