@@ -76,8 +76,7 @@
                 <a href="#categories_container" onclick="show_cat('nil','all')" class="btn btn-primary">View All</a>
           </div>
           
-          <section class="service_teasers" id="store_list_container">
-            <div class="portfolio_strict row" id="store_list_container">
+           <div class="portfolio_strict row" id="store_list_container">
                 <script id="store_list_template" type="x-tmpl-mustache/text">
                     <div class="col-sm-4 col-md-4">
                          <div class="portfolio_item wow animated flipInX"> <a href="/stores/{{slug}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
@@ -99,17 +98,6 @@
                     </div>
                 </script>
         </div>
-          </section> 
-          <section id="store_category_list_container">
-              <script id="category_store_list_template" type="x-tmpl-mustache/text">
-                <div class="cat_list_div" id="cat{{id}}" style="display:none">
-                    <h1 style="margin-top:0px">{{name}}</h1>
-                </div>
-              </script>
-          </section>
-     </div>
-</div>
-</div>
 <!--For more information please see http://learnjs.io/blog/2013/11/30/snapsvg-resources/-->
 <script src="//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
 <script src="http://kodekloud.s3.amazonaws.com/sites/5422419e4a616d74d9030000/e1fb5e17ab727d248230fbcb51da868f/jquery.panzoom.min.js"></script>
