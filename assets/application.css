@@ -6789,7 +6789,7 @@ figure img {
   border: solid 1px #cccccc;
   position: absolute;
   bottom: -15px;
-  right: 0px;
+  right: 100px;
 }
 .bs-example-tabs .nav-tabs {
   margin-bottom: 15px;
