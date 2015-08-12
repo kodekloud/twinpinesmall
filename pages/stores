@@ -4,7 +4,7 @@
             bottom:-15px !important;
         }
     }
-    
+
 .portfolio_strict .portfolio_item .portfolio_description p {
     margin: 0;
     padding: 0;
@@ -15,19 +15,8 @@
     font-weight: bold;
     padding-left: 120px !important;
 }
-.portfolio_strict .portfolio_item figure figcaption p {
-    padding: 10px 20px;
-    color: #aaa;
-    font-weight: 300;
-    font-size: 13px;
-    transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    timing-function: cubic-bezier(0.25, 0.25, 0.115, 1.445);
-    -webkit-animation-timing-function: cubic-bezier(0.25, 0.25, 0.115, 1.445);
-    opacity: 0;
-    display: none !important;
+.portfolio_item figure figcaption .view_button {
+    display:none !important;
 }
 </style>
 <div id="back-top"><img alt="BackToTop" src="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/c0a5afb0d05049981f657ccf2e67d904/totop.jpg"/></div>
