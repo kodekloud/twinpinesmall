@@ -24,6 +24,11 @@
     opacity: 0;
     display: none !important;
 }
+
+.portfolio_item figure figcaption .view_button {
+    display:none;
+}
+
 </style>
 
 <div class="full_page_photo" style="background-image: url(http://assets.kodekloud.io/sites/55887c646e6f642257020000/a35f08cc84c593929aa6fba61ad07430/banner.png);">
