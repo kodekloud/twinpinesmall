@@ -26,7 +26,7 @@
             <p class="right_column_header">location</p>
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
-                    <p class="directory_content">><br>216 Chrislea Road Vaughan ON L4L8S5
+                    <p class="directory_content"> <br>216 Chrislea Road Vaughan ON L4L8S5
 }</p>
                      <p class="directory_content">From TTC<br>
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
