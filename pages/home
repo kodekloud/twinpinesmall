@@ -126,8 +126,10 @@
             var repoList = getRepoList();
             var featureList = getFeatureList();
             var propertyDetails = getPropertyDetails();
+            var promotions = getPromotionsList();
             var banners = getBanners()
             var hours = getTodaysHours()
+            renderTemplate('#promo_items','#promo_template',promotions);
             renderLayoutHours('#todays_hours_container', '#todays_hours_template', hours);
             renderBanner('#banner_template','#home_banner',banners);
             renderFeatureItems('#feature_template', '#feature_items', featureList)
