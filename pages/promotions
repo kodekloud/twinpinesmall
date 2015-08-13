@@ -25,9 +25,7 @@
     display: none !important;
 }
 
-.portfolio_item figure figcaption .view_button {
-    display:none !important;
-}
+
 
 </style>
 
