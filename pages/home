@@ -127,6 +127,7 @@
             var featureList = getFeatureList();
             var propertyDetails = getPropertyDetails();
             var promotions = getPromotionsList();
+            promotions = promotions.slice(0,2);
             var banners = getBanners()
             var hours = getTodaysHours()
             renderTemplate('#promo_items','#promo_template',promotions);
