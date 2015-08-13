@@ -94,6 +94,8 @@
                </div>
           </section>
          <section class="portfolio_teasers_wrapper">
+          <h2 class="section_header fancy centered">Upcoming Promotions & Events!<small>Don't miss our exclusive deals</small></h2>
+               <div class="portfolio_strict row">
                <!--<h2 class="section_header fancy centered">Recent Work or Projects from Portfolio<small>we take pride in our work</small></h2> -->
                <div class="portfolio_strict row" id="promo_items">
                     <script id="promo_template" type="x-tmpl-mustache/text">
