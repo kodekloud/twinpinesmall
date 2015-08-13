@@ -207,7 +207,23 @@
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
             $.each( collection , function( key, val ) {
+                if ((val.promo_image_url_abs).indexOf('missing.png') > -1){
+                    if (val.promotionable_type == "Store") {
+                        var store_details = getStoreDetailsByID(val.promotionable_id);
+                        val.alt_promo_image_url = (store_details.store_front_url_abs);
+                        val.store_name = store_details.name
+                    } else {
+                        val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/dcd66cb0efbccf1a9dc76822e0b9da23/logo_10dundas.png"
+                    }
+                    
+                } else {
+                    val.alt_promo_image_url = (val.promo_image_url_abs);
+                    if (val.promotionable_type == "Store") {
+                        var store_details = getStoreDetailsByID(val.promotionable_id);
+                        val.store_name = store_details.name
+                    }
 
+                }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
                 
