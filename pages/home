@@ -71,8 +71,8 @@
           </section>
          <section class="portfolio_teasers_wrapper">
                <!--<h2 class="section_header fancy centered">Recent Work or Projects from Portfolio<small>we take pride in our work</small></h2> -->
-               <div class="portfolio_strict row" id="feature_items">
-                    <script id="feature_template" type="x-tmpl-mustache/text">
+               <div class="portfolio_strict row" id="promo_items">
+                    <script id="promo_template" type="x-tmpl-mustache/text">
                     <div class="col-sm-4 col-md-4">
                     <div class="portfolio_description">
                                    <h3 ><a style="color:black" href="http://{{url}}">{{name}}</a></h3>
@@ -196,6 +196,26 @@
                 nextText: ""
             });
         }
+        
+        function renderTemplate(container, template, collection){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            $.each( collection , function( key, val ) {
+
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+                
+                
+            });
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+            
+        }
+        
+        
+        
         function renderFeatureItems(feature_template,feature_items,featureList){
             var item_list = [];
             var item_rendered = [];
