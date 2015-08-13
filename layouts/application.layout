@@ -223,7 +223,7 @@
     }
      .map-mouse-over{
     /*set color of store highlight and hover over for SVG map*/
-    fill: yellow;
+    fill: #a6a6a6;
     }
     /*inside page banners*/
     .page_banner{
