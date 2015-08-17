@@ -112,7 +112,7 @@
         color:#999999 !important;
     }
     h2 {
-        color:green;
+        color:green !important;
     }
     
     .navbar .nav li.active a, .navbar .nav li.active a:hover {
