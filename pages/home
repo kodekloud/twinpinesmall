@@ -113,7 +113,7 @@
                             </figure>
                         </a>
                         <div class="portfolio_description">
-                            <span><a href="../promotions/{{slug}}"><h6 style="color:green">{{name}}</h6></a></span>
+                            <span><a href="../promotions/{{slug}}"><{{name}}</a></span>
                             
                         </div>
                     </div>
