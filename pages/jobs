@@ -97,6 +97,25 @@
                 collection = []
                 collection = item_list;
             }
+             start = new Date (val.start_date);
+                        end = new Date (val.end_date);
+                        start.setDate(start.getDate()+1);
+                        end.setDate(end.getDate()+1);
+                
+                        if (start.toDateString() == end.toDateString()) {
+                            val.start_month = get_month(start.getMonth())
+                            val.start_day = start.getDate()
+                            
+                            val.date_string = val.start_month + " " + val.start_day
+                            
+                            
+                        } else {
+                            val.start_month =get_month(start.getMonth())
+                            val.start_day = start.getDate() 
+                            val.end_month = get_month(end.getMonth())
+                            val.end_day = end.getDate()
+                            val.date_string = val.start_month + " " + val.start_day + ' - ' + val.end_month + " " + val.end_day
+                        }
             $.each( collection , function( key, val ) {
                 
                 if (val.jobable_type == "Store") {
