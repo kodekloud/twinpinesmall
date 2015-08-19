@@ -32,8 +32,8 @@
                     <li class="active">Jobs</li>
                </ul>
           </section>
-        <div class="portfolio_strict row" id="job_list_container">
-            <script id="job_list_template" type="x-tmpl-mustache/text">
+        <div class="portfolio_strict row" id="promo_list_container">
+            <script id="promo_list_template" type="x-tmpl-mustache/text">
                 <div class="col-sm-4 col-md-4">
                     <div class="portfolio_item wow animated flipInX"> 
                         <a href="../jobs/{{slug}}" >
@@ -100,7 +100,7 @@
             
             $.each( collection , function( key, val ) {
                 
-                if (val.jobable_type == "job") {
+                if (val.jobable_type == "Store") {
                     var store_details = getStoreDetailsByID(val.jobable_id);
                     val.store_name = store_details.name
                     val.store_detail_btn = store_details.slug 
