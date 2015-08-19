@@ -102,13 +102,20 @@
                 
                 if (val.jobable_type == "Store") {
                     var store_details = getStoreDetailsByID(val.jobable_id);
-                    val.store_name = store_details.name
+    
                     val.store_detail_btn = store_details.slug 
-                }
+                    val.store_name = store_details.name
+                    
+                } 
+                
+                end = new Date (val.end_date);
+                
+                end.setDate(end.getDate()+1);
+                val.dates = get_month(end.getMonth())+" "+end.getDate();
                 
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
-    
+                
             });
             
             $(container).show();
