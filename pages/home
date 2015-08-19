@@ -17,7 +17,7 @@
     font-weight: bold;
     padding-left: 120px !important;
 }
-    .portfolio_description {
+    .portfolio_description a{
         color:green;
     }
     .portfolio_strict .portfolio_item figure figcaption p {
