@@ -26,8 +26,8 @@
   
     <div class="inside_page_content">
         <div class="left_column">
-            <div class="promo_list_div" id="promo_container">
-                
+            <div class="job_list_div" id="job_container">
+                <script id="job_template" type="x-tmpl-mustache/text">
                     <div class="promo_inside_content">
                         <div class="promo_desc_box">
                             <a href="../jobs/{{slug}}"><p class="promo_header right_column_header">{{name}}</p></a>
