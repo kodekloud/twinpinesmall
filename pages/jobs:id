@@ -111,7 +111,7 @@
             Mustache.parse(template_html);   // optional, speeds up future uses
             item_list.push(collection);
             $.each( item_list , function( key, val ) {
-                
+                console.log(val)
 
                 if (val.jobable_type == "Store") {
                     var store_details = getStoreDetailsByID(val.jobable_id);
