@@ -100,7 +100,7 @@
             
             $.each( collection , function( key, val ) {
                 
-                if (val.jobable_type == "Store") {
+                if (val.jobable_type == "job") {
                     var store_details = getStoreDetailsByID(val.jobable_id);
                     val.store_name = store_details.name
                     val.store_detail_btn = store_details.slug 
