@@ -23,11 +23,7 @@
             <li class="active">{{name}}</li>
         </script>
     </ul>
-    <div class="page_banner" id="banner_container">
-        <script id="banner_template" type="x-tmpl-mustache/text">
-            {{name}}
-        </script>
-    </div>
+  
     <div class="inside_page_content">
         <div class="left_column">
             <div class="promo_list_div" id="promo_container">
