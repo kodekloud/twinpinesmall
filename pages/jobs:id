@@ -77,7 +77,7 @@
             job_details = getJobDetailsBySlug(slug);
             renderPageData('#breadcrumb_container','#breadcrumb_template',job_details, 'promo_details')
             renderPageData('#banner_container','#banner_template',job_details, 'promo_details')
-            render_page_details("#promo_container", "#promo_template", job_details)
+            render_page_details("#promo_container", "#promo_template", job_details,'jobs')
   
             $("#loading_screen").hide();
             $("#main_content").show();
