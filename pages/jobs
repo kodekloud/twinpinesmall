@@ -134,6 +134,7 @@
         };
         
         function get_month (id){
+            console.log(id)
             switch(id) {
                 case 0:
                     month = "Jan"
