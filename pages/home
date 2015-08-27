@@ -55,6 +55,10 @@
 .portfolio_description {
     padding-top:20px;
 }
+.navbar .nav li a:hover {
+    
+    border-bottom: green;
+}
 </style>
 <section id="slider_wrapper" class="slider_wrapper">
      <div id="main_flexslider" class="flexslider">
