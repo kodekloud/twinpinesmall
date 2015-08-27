@@ -42,6 +42,16 @@
     padding-top: 20px;
     font-weight: 300;
 }
+.section_header.fancy {
+    position: relative;
+    font-size: 28px;
+    line-height: 26px;
+    text-align: left;
+    text-transform: none;
+    padding: 36px 0 26px 0;
+    margin: 0 0 26px 0;
+    font-weight: 700;
+}
 </style>
 <section id="slider_wrapper" class="slider_wrapper">
      <div id="main_flexslider" class="flexslider">
