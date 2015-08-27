@@ -33,6 +33,19 @@
     opacity: 0;
     display: none !important;
 }
+.portfolio_item figure figcaption {
+    position: absolute;
+    top: 0;
+    z-index: 11;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+   
+    border: 1px solid #F4F4F4;
+}
 </style>
 <div id="pop-over">
     <span class="pull-left">
