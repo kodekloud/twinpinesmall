@@ -151,7 +151,11 @@
      p input[type='image']{
        width:100% !important;
    }
-   
+   .navbar .nav li a:hover, .navbar .nav li a:active {
+
+    border-bottom: solid 1px #389e47;
+    
+}
     .main_window{
         border:40px solid #bfbfbf;
     }
