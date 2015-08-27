@@ -19,6 +19,9 @@
 .portfolio_item figure figcaption .view_button {
     display:none !important;
 }
+a:hover {
+    color:green;
+}
  .portfolio_strict .portfolio_item figure figcaption p {
     padding: 10px 20px;
     color: #aaa;
