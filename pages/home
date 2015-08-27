@@ -55,9 +55,10 @@
 .portfolio_description {
     padding-top:20px;
 }
-.navbar .nav li a:hover {
+.navbar .nav li a:hover, .navbar .nav li a:active {
+
+    border-bottom: solid 1px #389e47;
     
-    border-bottom: green;
 }
 </style>
 <section id="slider_wrapper" class="slider_wrapper">
