@@ -52,6 +52,9 @@
     margin: 0 0 26px 0;
     font-weight: 700;
 }
+.portfolio_description {
+    padding-top:20px;
+}
 </style>
 <section id="slider_wrapper" class="slider_wrapper">
      <div id="main_flexslider" class="flexslider">
