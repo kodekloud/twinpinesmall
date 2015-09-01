@@ -121,7 +121,9 @@
   border-bottom: solid 1px #fff;
   color: #fff;
     }
-    
+    .navbar .nav li a:hover, .navbar .nav li a:active {
+    border-bottom: white;
+}
     .navbar .nav li a:hover, .navbar .nav li a:active {
     border-bottom:white;
     
