@@ -23,7 +23,9 @@
     opacity: 0;
     display: none !important;
 }
-
+hr {
+       border-top: 1px solid #cccccc;
+}
 
 
 </style>
