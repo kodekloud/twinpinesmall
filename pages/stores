@@ -5,7 +5,7 @@
         }
     }
     
-hr {
+.hr {
     color:#cccccc;
 }
 .portfolio_strict .portfolio_item .portfolio_description p {
