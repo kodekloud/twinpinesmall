@@ -5,8 +5,8 @@
         }
     }
     
-.hr {
-    color:#cccccc;
+hr {
+    border-top:#cccccc;
 }
 .portfolio_strict .portfolio_item .portfolio_description p {
     margin: 0;
