@@ -1880,6 +1880,7 @@ table th[class*="col-"] {
         position:relative !important;
         bottom:0 !important;
         margin-bottom:10px !important;
+        display:none;
     }
     .slider_wrapper{
         display:none;
