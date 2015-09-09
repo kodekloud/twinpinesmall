@@ -67,6 +67,7 @@
                             <p><img src="http://assets.kodekloud.io/sites/55887c646e6f642257020000/a35f08cc84c593929aa6fba61ad07430/calendar52.png" style="padding-right:5px;">{{dates}}</p>
                         </div>
                     </div>
+                    <hr>
                 </div>
             </script>
         </div>
