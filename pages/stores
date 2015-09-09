@@ -5,7 +5,9 @@
         }
     }
     
-
+hr {
+    color:#cccccc;
+}
 .portfolio_strict .portfolio_item .portfolio_description p {
     margin: 0;
     padding: 0;
