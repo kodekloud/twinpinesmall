@@ -24,6 +24,15 @@
     opacity: 0;
     display: none !important;
 }
+.portfolio_strict .portfolio_item .portfolio_description p {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 120px !important;
+}
 
 
 </style>
