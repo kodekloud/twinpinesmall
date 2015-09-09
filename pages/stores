@@ -6,7 +6,7 @@
     }
     
 hr {
-    border-top:#cccccc;
+       border-top: 1px solid #cccccc;
 }
 .portfolio_strict .portfolio_item .portfolio_description p {
     margin: 0;
