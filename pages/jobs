@@ -9,7 +9,9 @@
     letter-spacing: 1px;
     padding-left: 120px !important;
 }
-    
+    hr {
+       border-top: 1px solid #cccccc;
+}
 </style>
 
 <div class="full_page_photo" style="background-image: url(http://assets.kodekloud.io/sites/55887c646e6f642257020000/8524c581169e6e67061a7c58568d6bd6/jobs.png);">
