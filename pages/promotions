@@ -10,7 +10,7 @@
     font-weight: bold;
     padding-left: 120px !important;
 }
-    .portfolio_strict .portfolio_item figure figcaption p {
+   .portfolio_strict .portfolio_item figure figcaption p {
     padding: 10px 20px;
     color: #aaa;
     font-weight: 300;
@@ -24,7 +24,6 @@
     opacity: 0;
     display: none !important;
 }
-
 
 
 </style>
