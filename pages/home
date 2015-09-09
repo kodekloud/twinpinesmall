@@ -19,6 +19,7 @@
 }
     .portfolio_description a{
         color:#299E48;
+        font-weight:bold;
     }
     
     .col-md-3 {
