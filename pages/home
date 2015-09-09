@@ -20,6 +20,11 @@
     .portfolio_description a{
         color:#299E48;
     }
+    
+    .col-md-3 {
+    width: 32%;
+    margin-left: 11px;
+}
     .portfolio_strict .portfolio_item figure figcaption p {
     padding: 10px 20px;
     color: #aaa;
