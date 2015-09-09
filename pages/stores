@@ -47,7 +47,7 @@ a:hover {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
    
-    border: 1px solid #F4F4F4;
+    border: 1px solid #cccccc;
 }
 </style>
 <div id="pop-over">
