@@ -12,6 +12,13 @@ b, strong {
     font-weight: bold;
     color: green;
 }
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(n + 4) {
+    visibility: hidden;
+}
 </style>
 <div class="full_page_photo" style="background-image: url(http://assets.kodekloud.io/sites/55887c646e6f642257020000/a00b3dc0e46fee3bcf45dc7d3f737518/giftcardbanner.png);">
      <div class="container">
