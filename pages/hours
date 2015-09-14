@@ -42,7 +42,7 @@ b, strong {
                 <script id="reg_hours_template" type="x-tmpl-mustache/text">
                     <tr>
                         <td class="hours_left">
-                            {{day}}
+                           <strong> {{day}}</strong>
                         </td>   
                         <td class="hours_right">
                             {{h}}
