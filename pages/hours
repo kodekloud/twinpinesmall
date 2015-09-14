@@ -76,7 +76,7 @@ b, strong {
                         </td>
                         </tr>
                         <tr>
-                        <td class="hours_left >
+                        <td class="hours_left" >
                             {{h}}
                         </td>
                     </tr>
