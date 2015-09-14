@@ -22,7 +22,7 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/5a559199c13efa2cbd2001f37022c6c2/Banner-Image-004_edited.jpg"/>
+            
             <p class="right_column_header">regular hours</p>
             <table id="reg_hours_container" class="reg_hours_container">
                 <script id="reg_hours_template" type="x-tmpl-mustache/text">
@@ -66,7 +66,18 @@
                 </script>
             </table>
         </div>
-       
+        <div class="right_column">
+            <p class="right_column_header">centre information</p>
+            <div id="centre_info_container">
+                <script id="centre_info_template" type="x-tmpl-mustache/text">
+                    <p class="directory_content">{{name}}</p>
+                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                </script>
+            </div>
+            
+            
+        </div>
     </div>
 </div>
 <script>
