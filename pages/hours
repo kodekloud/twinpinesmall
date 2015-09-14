@@ -45,7 +45,7 @@
                     </tr>
                 </script>
             </table>
-            <br>
+            
             </div>
             <!--<p class="right_column_header">Custom Text</p>-->
             <!--uncomment and put whatever text you want in this block-->
@@ -60,7 +60,7 @@
             <!--    </tr>-->
             <!--</table>-->
             <!--<br>-->
-            <br>
+         
              <div class="col-sm-5 col-md-5">
             <p class="right_column_header">holiday hours</p>
             <table id="holiday_hours_container" class="holiday_hours_container">
