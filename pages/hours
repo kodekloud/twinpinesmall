@@ -37,7 +37,7 @@ b, strong {
     <div class="inside_page_content">
         <div class="left_column">
             
-            <p class="right_column_header">regular hours</p>
+            <p>Regular Shopping Centre Hours</p>
             <table id="reg_hours_container" class="reg_hours_container">
                 <script id="reg_hours_template" type="x-tmpl-mustache/text">
                     <tr>
