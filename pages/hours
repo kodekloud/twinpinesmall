@@ -72,7 +72,7 @@ b, strong {
                     <tr>
                         <td class="hours_left">
                             <strong>{{holiday_name}}</strong><br>
-                            // {{formatted_date}}
+                            
                         </td>
                         <td class="hours_right">
                             {{h}}
