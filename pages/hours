@@ -1,11 +1,22 @@
-<div id="loading_screen">
-    <img alt="loading" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+<div class="full_page_photo" style="background-image: url(http://assets.kodekloud.io/sites/55887c646e6f642257020000/a00b3dc0e46fee3bcf45dc7d3f737518/giftcardbanner.png);">
+     <div class="container">
+          <!-- <section class="call_to_action">
+               <h3 class="animated bounceInDown skincolored">we design <strong>value</strong> into profit</h3>
+               <br>
+               <h4 class="animated bounceInUp">our <strong>customers</strong> are always <strong>happy</strong>!</h4>
+          </section> -->
+     </div>
 </div>
-<div  id="main_content" style="display:none">
-    <ul class="breadcrumb">
-        <li><a href="/home">Home</a> </li>
-        <li class="active">Shopping Hours</li>
-    </ul>
+<div class="main">
+     <div class="container">
+          <section class="hgroup centered">
+               <h1>Gift Cards</h1>
+               <!-- <h2>This is a <b>hgroup.centered</b> In hac habitasse platea dictumst. Donec aliquet tellus enim, a tincidunt nulla.</h2> -->
+               <ul class="breadcrumb pull-right">
+                    <li><a href="/home">Home</a> </li>
+                    <li class="active">Gift Cards</li>
+               </ul>
+          </section>
     <div class="page_banner">
         Shopping Hours
     </div>
