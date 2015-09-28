@@ -51,6 +51,11 @@ a:hover {
    
     border: 1px solid #cccccc;
 }
+
+.portfolio_description p a{
+    padding-left:50px;
+}
+
 </style>
 <div id="pop-over">
     <span class="pull-left">
