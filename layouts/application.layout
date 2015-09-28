@@ -125,7 +125,10 @@
     border-bottom: none !important;
 }
     
-  
+  .main {
+    background-color: #fff;
+    margin-bottom: 60px;
+}
     
     .portfolio_item .portfolio_description p {
   margin: 0;
