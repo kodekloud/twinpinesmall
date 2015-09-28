@@ -49,7 +49,7 @@ td {
     <div class="inside_page_content">
         <div class="left_column">
             
-            <p><h3>Regular Shopping Centre Hours</h3></p>
+            <p><h4>Regular Shopping Centre Hours</h4></p>
             <table id="reg_hours_container" class="reg_hours_container">
                 <script id="reg_hours_template" type="x-tmpl-mustache/text">
                     <tr>
