@@ -149,7 +149,12 @@
     body{
         background:white;
     }
-    
+    @media only screen and (max-width: 767px)
+.full_page_photo {
+    height: 300px;
+    top: 0px !important;
+    display: none;
+}
     header{
         background:white;
     }
