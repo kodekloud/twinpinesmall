@@ -53,7 +53,7 @@ a:hover {
 }
 @media only screen and (max-device-width: 900px) {
 .portfolio_description p a{
-    padding-left:20px;
+    padding-left:30px;
 }
 }
 </style>
