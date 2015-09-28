@@ -51,11 +51,11 @@ a:hover {
    
     border: 1px solid #cccccc;
 }
-
+@media only screen and (max-device-width: 900px) {
 .portfolio_description p a{
-    padding-left:50px;
+    padding-left:20px;
 }
-
+}
 </style>
 <div id="pop-over">
     <span class="pull-left">
