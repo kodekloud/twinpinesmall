@@ -48,7 +48,13 @@
                          <section class="portfolio_slider_wrapper">
                                 <a href="{{alt_promo_image_url}}" target="_blank"><img style="width:750px" class="item" src="{{alt_promo_image_url}}" /></a>
                          </section>
-                         <h5><img src="http://assets.kodekloud.io/sites/55887c646e6f642257020000/a35f08cc84c593929aa6fba61ad07430/calendar52.png" style="padding-right:5px;">{{dates}}</h5>
+                         <h5><img src="http://assets.kodekloud.io/sites/55887c646e6f642257020000/a35f08cc84c593929aa6fba61ad07430/calendar52.png" style="padding-right:5px;">{{dates}}</h5> 
+                         <a href="http://www.facebook.com/sharer.php?u=http://pickeringtowncentre.com/promotions/{{event.slug}}" target="_blank">
+                <img src="http://assets.kodekloud.io/sites/55887c646e6f642257020000/image/png/1443473069000/Facebook 2.png">
+            </a>
+            <a href="http://twitter.com/share?text=Check%20out%20the%20promotions%20at%20Pickering%20Town%20Centre&url=http://http://pickeringtowncentre.com/promotions/{{event.slug}}">
+                <img src="http://assets.kodekloud.io/sites/55887c646e6f642257020000/image/png/1443473073000/Twitter 2.png">
+            </a>
                               <p>{{{rich_description}}}</p>
                               <a id="store_btn" style="display:none" href="/stores/{{store_detail_btn}}" class="btn btn-danger center-block btn-lg">View Store Details</a>
                         </article>
