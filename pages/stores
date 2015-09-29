@@ -52,10 +52,11 @@ a:hover {
     border: 1px solid #cccccc;
 }
 @media only screen and (max-width: 767px) 
+{
 .portfolio_strict .portfolio_item .portfolio_description p {
     padding-left:150px;
 }
-
+}
 </style>
 <div id="pop-over">
     <span class="pull-left">
