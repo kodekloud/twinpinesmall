@@ -49,7 +49,7 @@ td {
     <div class="inside_page_content">
         <div class="left_column">
             
-            <p><h4>Regular Shopping Centre Hours</h4></p>
+            <h4>Regular Shopping Centre Hours</h4>
             <table id="reg_hours_container" class="reg_hours_container">
                 <script id="reg_hours_template" type="x-tmpl-mustache/text">
                     <tr>
@@ -79,7 +79,7 @@ td {
             <!--<br>-->
          
              <div class="right_column">
-            <p><strong>Holiday Shopping Centre Hours</strong></p>
+            <h4>Holiday Shopping Centre Hours</h4>
             <table id="holiday_hours_container" class="holiday_hours_container">
                 <script id="holiday_hours_template" type="x-tmpl-mustache/text">
                     <tr>
