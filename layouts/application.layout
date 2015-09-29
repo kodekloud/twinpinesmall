@@ -167,6 +167,13 @@
     border-bottom: solid 1px #389e47;
     
     }
+    @media (max-width: 767px)
+    {
+.footer-text {
+    text-align: center;
+    padding-left: 33px;
+}
+}
     .main_window{
         border:40px solid #bfbfbf;
     }
