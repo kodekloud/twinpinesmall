@@ -171,7 +171,7 @@
     {
 .footer-text {
     text-align: center;
-    padding-left: 33px;
+    padding-left: 33px !important;
 }
 }
     .main_window{
