@@ -54,7 +54,7 @@ a:hover {
 @media only screen and (max-width: 767px) 
 {
 .portfolio_strict .portfolio_item .portfolio_description p {
-    padding-left:150px;
+    padding-left:150px !important;
 }
 }
 </style>
